@@ -1,4 +1,4 @@
-# mcxt-configs
+# **Configurations, Software, MC Mods and other stuff**
 
 ## **Windows**
 

@@ -1,2 +1,1 @@
 # mcxt-configs
-test

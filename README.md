@@ -1,4 +1,4 @@
-# Hi there 🖐
+# Hello there 🖐
 
 - Techie and public transport nerd 
 - Linux User (Currently running ZorinOS alongside Win11) 

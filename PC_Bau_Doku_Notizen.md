@@ -27,7 +27,12 @@
 - Server-Tower
 
 ## Netzteil
-### Bauarten: ATX, Flex-ATX, SFX, SFX-L, TFX
+### Bauarten: 
+- ATX 
+- Flex-ATX 
+- SFX 
+- SFX-L 
+- TFX
 ### Anschlüsse: 
 - 24-Pin ATX (Mainboard)
 - 4/8-Pin EPS (CPU-Strom)

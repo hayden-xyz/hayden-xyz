@@ -18,19 +18,40 @@
 - Sammel-Schale für Kleinteile
 
 ## Gehäuse
-###formfaktoren: Ultra-Compact(NUC), ITX/DTX, Mini-Tower, Midi-Tower, Big-Tower, Server-Tower
+### Formfaktoren: 
+- Ultra-Compact(NUC)
+- ITX/DTX
+- Mini-Tower
+- Midi-Tower
+- Big-Tower
+- Server-Tower
 
 ## Netzteil
-### bauarten: ATX, Flex-ATX, SFX, SFX-L, TFX
-### anschlüsse: 24-Pin ATX (Mainboard), 4/8-Pin EPS (CPU-Strom), 6/6+2/8-Pin PCIe, 12VHPWR (Nvidia-GPUs), 12V-2x6 (Neue Nvidia-GPUs), SATA (Festplatten, andere Geräte), Molex (Veraltet)
-### leistung: 
+### Bauarten: ATX, Flex-ATX, SFX, SFX-L, TFX
+### Anschlüsse: 
+- 24-Pin ATX (Mainboard)
+- 4/8-Pin EPS (CPU-Strom)
+- 6/6+2/8-Pin PCIe
+- 12VHPWR (Nvidia-GPUs)
+- 12V-2x6 (Neue Nvidia-GPUs)
+- SATA (Festplatten, andere Geräte)
+- Molex (Veraltet)
+### Leistung: 
 
 ## Mainboard
-### formfaktoren: mini-ITX, mATX, ATX, E-ATX (Extended-ATX), XL-ATX
-### anschlüsse: I/O kann je nach Mainboard variieren, 1-2x4-Pin/1-2x8-Pin EPS, SATA Anschlüsse, Lüfter Anschlüsse (PWM/DC), RGB Anschlüsse (4-Pin), aRGB Anschlüsse (3-Pin), USB 2.0, USB 3.0, USB Typ C
-### speicherbänke:
-### sockel:
-### erweiterungsslots: PCIe x4 M.2, PCIe x16
+### Formfaktoren: mini-ITX, mATX, ATX, E-ATX (Extended-ATX), XL-ATX
+### Anschlüsse: 
+- I/O kann je nach Mainboard variieren
+- 1-2x4-Pin/1-2x8-Pin EPS, SATA Anschlüsse
+- Lüfter Anschlüsse (PWM/DC)
+- RGB Anschlüsse (4-Pin)
+- aRGB Anschlüsse (3-Pin)
+- USB 2.0, USB 3.0, USB Typ C
+### Speicherbänke:
+### Sockel:
+### Erweiterungsslots: 
+- PCIe x4 M.2
+- PCIe x16
 
 ## Prozessor + Kühler
 ### Typen(CPU): 
@@ -68,7 +89,7 @@
 - UDIMM (Unbuffered DIMM)
 - CUDIMM (Clocked Unbuffered DIMM)
 
-###unterschiede:
+### Unterschiede:
 
 ##Datenspeicher
 ###arten:

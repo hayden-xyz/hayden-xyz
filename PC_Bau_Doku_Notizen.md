@@ -108,8 +108,11 @@
 
 ## Erweiterungskarten:
 ### Grafikkarte: 
+- 
 ### Soundkarte:
+- 
 ### Netzwerkkarte:
+- 
 ### etc: 
 - Capture-Cards 
 - USB Cards

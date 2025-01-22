@@ -91,24 +91,27 @@
 
 ### Unterschiede:
 
-##Datenspeicher
-###arten:
-###anschlüsse:
-###besonderheiten:
+## Datenspeicher
+### Arten:
+### Anschlüsse:
+### Besonderheiten:
 
-##Zusätzliche Laufwerke
-###arten:
-###anschlüsse:
-###besonderheiten:
+## Zusätzliche Laufwerke
+### arten:
+### anschlüsse:
+### besonderheiten:
 
-##Erweiterungskarten:
-###grafikkarte: 
-###soundkarte:
-###netzwerkkarte:
-###etc: Capture-Cards, USB Cards, 
+## Erweiterungskarten:
+### Grafikkarte: 
+### Soundkarte:
+### Netzwerkkarte:
+### etc: 
+- Capture-Cards 
+- USB Cards
 
-##Montage
+## Montage
 - 
 
-##Inbetriebnahme
-###Peripherie-Geräte: Tastatur & Maus
+## Inbetriebnahme
+### Peripherie-Geräte: 
+- Tastatur & Maus

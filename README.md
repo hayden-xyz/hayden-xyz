@@ -1,5 +1,7 @@
 # Hello there 👋
 
+## About me 👤
+
 - IT and public transport nerd 
 - Windows/Linux User (Currently running Ubuntu alongside Win11)
 
@@ -11,8 +13,9 @@
 - Secondary Monitor: AOC 27G2U5 | 1080 x 1920
 
 ## Stats 📊
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&count_private=true)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&layout=compact)
+- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&count_private=true)
+
+- ![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&layout=compact)
 
 ## ...

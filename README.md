@@ -1,19 +1,14 @@
 # Hello there 👋
 
 ### Sections:
-- #about-me-
-- #socials
-- n
-- n
-- n
-- n
-- n
+- [About Me](#about-me-)
+- [Socials](#socials)
+- [My current Setup](#my-current-setup-%EF%B8%8F)
+- [Configs / Dots](#configs--dots)
+- [Stats](#stats-)
 
 ### About me 👤
 
-### Socials: 
-- [Instagram](https://www.instagram.com/_henri.161)
-- [TikTok](https://www.tiktok.com/@_mcxt)
 ___
 ### My current setup 🖥️
 
@@ -52,3 +47,6 @@ ___
 ![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&layout=compact)
 
 ___
+### Socials: 
+- [Instagram](https://www.instagram.com/_henri.161)
+- [TikTok](https://www.tiktok.com/@_mcxt)

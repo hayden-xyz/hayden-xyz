@@ -31,7 +31,10 @@ ___
 
 #### Browser Extensions:
 - [Dark Reader Config](configs/BrowserExtensions/DarkReader)
-- [mtab](configs/BrowserExtensions/mtab)
+- [mtab config](configs/BrowserExtensions/mtab)
+
+#### AutoDesk
+- [Inventor Config](configs/AutoDesk/Inventor)
 
 ### Stats 📊
 

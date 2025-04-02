@@ -1,5 +1,14 @@
 # Hello there 👋
 
+### Sections:
+- #about-me-
+- #socials
+- n
+- n
+- n
+- n
+- n
+
 ### About me 👤
 
 ### Socials: 

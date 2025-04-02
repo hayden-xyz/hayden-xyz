@@ -3,8 +3,8 @@
 ## About me 👤
 
 ## Socials: 
-- IG: instagram.com/_henri.161
-- TT: tiktok.com/@_mcxt
+- [Instagram](instagram.com/_henri.161)
+- [TikTok](tiktok.com/@_mcxt)
 
 ## My current setup 🖥️
   

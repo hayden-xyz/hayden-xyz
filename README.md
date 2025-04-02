@@ -14,7 +14,7 @@
 - RAM: 64GB DDR4 3200 MT/s
 - Storage: 256GB + 2TB SSDs
 - OS: Modified Windows 11 (no Recall, Copilot)
-
+___
 #### Other PC
 - CPU: i5 4570
 - GPU: RX 6400

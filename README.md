@@ -3,7 +3,7 @@
 ## About me 👤
 
 - IT and public transport nerd 
-- Windows/Linux User (Currently running Ubuntu alongside Win11)
+- Windows/Linux User (Currently running Bazzite (with GameScope) alongside Win11)
 
 ## My current setup 🖥️
   

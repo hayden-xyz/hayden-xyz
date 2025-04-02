@@ -1,12 +1,12 @@
 # Hello there 👋
+___
+### About me 👤
 
-## About me 👤
-
-## Socials: 
+### Socials: 
 - [Instagram](https://www.instagram.com/_henri.161)
 - [TikTok](https://www.tiktok.com/@_mcxt)
 ___
-## My current setup 🖥️
+### My current setup 🖥️
 
 #### Main PC:
 - CPU: Ryzen 9 3900X
@@ -27,7 +27,7 @@ ___
 #### Secondary Monitor:
 - AOC 27G2U5 | 1080 x 1920 | 60Hz (75Hz OC)
 ___
-## Stats 📊
+### Stats 📊
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&count_private=true)
 

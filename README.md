@@ -22,9 +22,9 @@
 - Storage: 1TB SATA SSD
 - OS: Windows 10 + Bazzite (with Gamescope)
 
-##### Primary Monitor:
+#### Primary Monitor:
 - LG Ultragear 27GN800P-B | 2560 x 1440 | 144Hz
-##### Secondary Monitor:
+#### Secondary Monitor:
 - AOC 27G2U5 | 1080 x 1920 | 60Hz (75Hz OC)
 
 ## Stats 📊

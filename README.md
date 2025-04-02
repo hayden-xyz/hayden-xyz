@@ -5,9 +5,9 @@
 ## Socials: 
 - [Instagram](https://www.instagram.com/_henri.161)
 - [TikTok](https://www.tiktok.com/@_mcxt)
-
+___
 ## My current setup 🖥️
-  
+
 #### Main PC:
 - CPU: Ryzen 9 3900X
 - GPU: RTX 3060
@@ -21,16 +21,16 @@ ___
 - RAM: 32GB DDR3 1600 MT/s
 - Storage: 1TB SATA SSD
 - OS: Windows 10 + Bazzite (with Gamescope)
-
+___
 #### Primary Monitor:
 - LG Ultragear 27GN800P-B | 2560 x 1440 | 144Hz
 #### Secondary Monitor:
 - AOC 27G2U5 | 1080 x 1920 | 60Hz (75Hz OC)
-
+___
 ## Stats 📊
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&count_private=true)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&layout=compact)
 
-## ...
+___

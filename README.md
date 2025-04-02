@@ -34,7 +34,7 @@ ___
 - [mtab config](configs/BrowserExtensions/mtab)
 
 #### AutoDesk
-- [Inventor Config](configs/AutoDesk/Inventor)
+- [Inventor Config](configs/AutoDesk)
 
 ### Stats 📊
 

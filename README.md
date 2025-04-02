@@ -2,9 +2,9 @@
 
 ## About me 👤
 
-### Interests:
-- 
-- Windows/Linux User (Currently running Bazzite (with GameScope) alongside Win11)
+## Socials: 
+- IG: instagram.com/_henri.161
+- TT: tiktok.com/@_mcxt
 
 ## My current setup 🖥️
   
@@ -23,9 +23,9 @@
 - OS: Windows 10 + Bazzite (with Gamescope)
 
 ### Primary Monitor:
-- LG Ultragear 27GN800P-B | 2560 x 1440
+- LG Ultragear 27GN800P-B | 2560 x 1440 | 144Hz
 ### Secondary Monitor:
-- AOC 27G2U5 | 1080 x 1920
+- AOC 27G2U5 | 1080 x 1920 | 60Hz (75Hz OC)
 
 ## Stats 📊
 

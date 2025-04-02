@@ -8,23 +8,23 @@
 
 ## My current setup 🖥️
   
-### Main PC:
+#### Main PC:
 - CPU: Ryzen 9 3900X
 - GPU: RTX 3060
 - RAM: 64GB DDR4 3200 MT/s
 - Storage: 256GB + 2TB SSDs
 - OS: Modified Windows 11 (no Recall, Copilot)
 
-### Other PC
+#### Other PC
 - CPU: i5 4570
 - GPU: RX 6400
 - RAM: 32GB DDR3 1600 MT/s
 - Storage: 1TB SATA SSD
 - OS: Windows 10 + Bazzite (with Gamescope)
 
-### Primary Monitor:
+##### Primary Monitor:
 - LG Ultragear 27GN800P-B | 2560 x 1440 | 144Hz
-### Secondary Monitor:
+##### Secondary Monitor:
 - AOC 27G2U5 | 1080 x 1920 | 60Hz (75Hz OC)
 
 ## Stats 📊

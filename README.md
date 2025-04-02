@@ -30,7 +30,7 @@ ___
 ### Configs / Dots:
 
 #### Browser Extensions:
-[Dark Reader Config](../configs/BrowserExtensions/DarkReader)
+[Dark Reader Config](configs/BrowserExtensions/DarkReader)
 ### Stats 📊
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&count_private=true)

@@ -1,4 +1,4 @@
-# Hello there 👋 ___
+# Hello there 👋
 
 ### Sections:
 - [About Me](#about-me-)

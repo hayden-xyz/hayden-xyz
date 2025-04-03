@@ -29,7 +29,7 @@ ___
 #### Primary Monitor:
 - LG Ultragear 27GN800P-B | 2560 x 1440 | 144Hz
 #### Secondary Monitor:
-- AOC 27G2U5 | 1080 x 1920 | 60Hz (75Hz OC)
+- AOC 27G2U5 | 1080 x 1920 | 75Hz
 
 #### Peripherals:
 - Keyboard: Logitech G213 Prodigy

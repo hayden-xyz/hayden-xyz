@@ -40,6 +40,7 @@ ___
 #### AutoDesk
 - [Inventor Config](configs/AutoDesk)
 
+___
 ### Stats 📊
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoobieDevX&theme=nord&show_icons=true&hide_border=true&count_private=true)

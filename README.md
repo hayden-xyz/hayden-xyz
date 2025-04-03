@@ -43,11 +43,11 @@ ___
 ___
 ### Stats 📊
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoobieDevX&theme=catppuccin_mocha&show_icons=true&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoobieDevX&show_icons=true&hide_border=true&count_private=true&bg_color=#24273a)
 
 ![NoobieDevX's Streak](https://github-readme-streak-stats.herokuapp.com/?user=NoobieDevX&theme=catppuccin-macchiato&hide_border=true)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=NoobieDevX&theme=catppuccin_macchiato&show_icons=true&hide_border=true&layout=compact)
+![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=NoobieDevX&show_icons=true&hide_border=true&layout=compact&bg_color=#24273a)
 
 ___
 ### Socials: 

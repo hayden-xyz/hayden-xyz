@@ -19,7 +19,7 @@ ___
 - Storage: 256GB + 2TB SSDs
 - OS: Modified Windows 11 (no Recall, Copilot)
 
-#### Other PC
+#### Secondary PC
 - CPU: i5 4570
 - GPU: RX 6400
 - RAM: 32GB DDR3 1600 MT/s

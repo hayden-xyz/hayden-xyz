@@ -41,6 +41,7 @@ ___
 #### Browser Extensions:
 - [Dark Reader Config](configs/BrowserExtensions/DarkReader)
 - [mtab config](configs/BrowserExtensions/mtab)
+- [uBlock Origin](configs/BrowserExtensions/uBlockOrigin)
 
 #### AutoDesk
 - [Inventor Config](configs/AutoDesk)

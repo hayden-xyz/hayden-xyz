@@ -58,3 +58,4 @@ ___
 - [Bluesky](https://bsky.app/profile/mcxt.bsky.social)
 - [Instagram](https://www.instagram.com/_henri.161)
 - [TikTok](https://www.tiktok.com/@_mcxt)
+- [Twitch](https://www.twitch.tv/noobiedevx)

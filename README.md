@@ -39,9 +39,9 @@ ___
 ### Configs / Dots:
 
 #### Browser Extensions:
-- [[- Dark Reader -]](configs/BrowserExtensions/DarkReader)
-- [[- mtab -]](configs/BrowserExtensions/mtab)
-- [[- uBlock Origin -]](configs/BrowserExtensions/uBlockOrigin)
+- [Dark Reader](configs/BrowserExtensions/DarkReader)
+- [mtab](configs/BrowserExtensions/mtab)
+- [uBlock Origin](configs/BrowserExtensions/uBlockOrigin)
 
 #### AutoDesk
 - [Inventor Config](configs/AutoDesk)

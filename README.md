@@ -24,7 +24,7 @@ ___
 - GPU: RX 6400
 - RAM: 32GB DDR3 1600 MT/s
 - Storage: 1TB SATA SSD
-- OS: Windows 10 + Bazzite (with Steam Gamescope)
+- OS: Archlinux
 
 #### Primary Monitor:
 - LG Ultragear 27GN800P-B | 2560 x 1440 | 144Hz

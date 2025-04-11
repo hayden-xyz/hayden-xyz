@@ -16,7 +16,7 @@ ___
 - CPU: Ryzen 9 3900X
 - GPU: RTX 3060
 - RAM: 64GB DDR4 3200 MT/s
-- Storage: 256GB + 2TB SSDs
+- Storage: 256GB m.2 NVME + 2TB m.2 SATA
 - OS: Modified Windows 11 (no Recall, Copilot)
 
 #### Secondary PC

@@ -10,19 +10,26 @@
 - Appleskin
 - Entity Model Features
 - Entity Texture Features
-- 
 - Zoomify
+- BetterF3
+- Block Runner
+- 
 ___
 ### Clientside Perfomance Mods:
 ___
 ### Serverside Perfomance Mods:
 - Lithium
 - Noisium
+- Async Locator
+- 
 ___
 ### Serverside QoA Mods:
 - No Chat Reports
 - Journeymap
-- 
+- Block Runner
+- Bow Infinity Fix
+- Chat Heads
+- Carry On
 ___
 ### World Gen Mods:
 - Terralith
@@ -82,5 +89,6 @@ ___
 - YUNG's API
 - Lithostitched
 - Collective
+- Almanac
 - 
 ___

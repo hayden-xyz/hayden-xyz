@@ -2,6 +2,9 @@
 > <b>Loader:</b> Fabric <br>
 > <b>Version:</b> 1.20.1 <br>
 
+### Clientside QoA Mods:
+- Zoomify
+- 
 ### Clientside Perfomance Mods:
 ___
 ### Serverside Perfomance Mods:

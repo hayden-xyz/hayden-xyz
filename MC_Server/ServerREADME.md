@@ -3,14 +3,18 @@
 > <b>Version:</b> 1.20.1 <br>
 
 ### Clientside Perfomance Mods:
-
+___
 ### Serverside Perfomance Mods:
 - Lithium
 - Noisium
-- 
+___
+### QoA (Quality of Life) Mods:
+- Disable Custom Worlds Advice
+___
 ### World Gen Mods:
 - Terralith
 - Biomes O' Plenty
+- Geophilic
 ___
 ### Structure Mods:
 - YUNG's Better...
@@ -24,6 +28,8 @@ ___
   - End Island
 - YUNG's Bridges
 - YUNG's Extras
+- ChoiceTheorem's Overhauled Villages
+- Explorify
 - 
 ___
 ### Technical Mods:
@@ -61,3 +67,5 @@ ___
 ### APIs / Library Mods:
 - Terra Blender
 - YUNG's API
+- Lithostitched
+___

@@ -2,8 +2,15 @@
 > <b>Loader:</b> Fabric <br>
 > <b>Version:</b> 1.20.1 <br>
 
+### Clientside Perfomance Mods:
+
+### Serverside Perfomance Mods:
+- Lithium
+- Noisium
+- 
 ### World Gen Mods:
 - Terralith
+- Biomes O' Plenty
 ___
 ### Structure Mods:
 - YUNG's Better...
@@ -52,4 +59,5 @@ ___
 ### Magical Mods:
 ___
 ### APIs / Library Mods:
-- 
+- Terra Blender
+- YUNG's API

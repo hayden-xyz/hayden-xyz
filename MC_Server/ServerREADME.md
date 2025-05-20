@@ -7,6 +7,9 @@
 - No Chat Reports
 - 3D Skin Layers
 - Journeymap
+- Appleskin
+- Entity Model Features
+- Entity Texture Features
 - 
 - Zoomify
 ___

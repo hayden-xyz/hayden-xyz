@@ -3,16 +3,23 @@
 > <b>Version:</b> 1.20.1 <br>
 
 ### Clientside QoA Mods:
-- Zoomify
+- Disable Custom Worlds Advice
+- No Chat Reports
+- 3D Skin Layers
+- Journeymap
 - 
+- Zoomify
+___
 ### Clientside Perfomance Mods:
 ___
 ### Serverside Perfomance Mods:
 - Lithium
 - Noisium
 ___
-### QoA (Quality of Life) Mods:
-- Disable Custom Worlds Advice
+### Serverside QoA Mods:
+- No Chat Reports
+- Journeymap
+- 
 ___
 ### World Gen Mods:
 - Terralith
@@ -71,4 +78,6 @@ ___
 - Terra Blender
 - YUNG's API
 - Lithostitched
+- Collective
+- 
 ___

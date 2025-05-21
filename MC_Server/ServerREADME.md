@@ -1,7 +1,7 @@
 > <b>Base Modpack:</b> BMC2 <br>
 > <b>Loader:</b> Fabric <br>
 > <b>Version:</b> 1.20.1 <br>
-
+___
 ### Optimization (Clientside):
 - Sodium
   - Sodium Extra
@@ -15,7 +15,15 @@
 - Enhanced Block Entities
 - More Culling
 - Language Reload
-- Starlight
+- Fast IP Ping
+- FastAnim
+- Cull Less Leaves
+- Particle Core
+- Exordium
+- GpuTape
+- Better Biome Reblend
+- Client Side Noteblocks
+- ThreatenGL
 ___
 ### Optimization (Serverside):
 - Lithium
@@ -23,13 +31,20 @@ ___
 - Async Locator
 - Clumps
 - Let Me Despawn
-- 
+- Concurrent Chunk Management Engine (C²ME)
+- Chunky
+- Alternate Current
+- ServerCore
 ___
 ### Optimization (Client & Server):
 - ModernFix
 - Debugify
 - Memory Leak Fix
 - FerriteCore
+- ScalableLux
+- Fast Paintings
+- Achievement Optimizer
+- Fast Item Frames
 ___
 ### Utility (Clientside):
 - Disable Custom Worlds Advice
@@ -58,7 +73,12 @@ ___
 - More Chat History
 - Dark Loading Screen
 - Eating Animation
-- 
+- Item Borders
+- Better Trim Tooltips
+- Dynamic Trim
+- Detail Armor Bar
+- Cut Through
+- Elytra Physics
 ___
 ### Utility (Serverside):
 - No Chat Reports
@@ -74,6 +94,13 @@ ___
 - RightClickHarvest
 - Universal Ores
 - FallingTree
+- You Shall Not Spawn (YSNS)
+- Carpet
+- CarpetGamerules
+- Carpet-Fixes
+- Carpet Extra
+- Fake AFK
+- Better Than Mending
 ___
 ### Utility (Client & Server):
 - Carry On
@@ -89,19 +116,22 @@ ___
 - ElytraSlot
 - Explorer's Compass
 - Nature's Compass
-- 
+- Better Trims
+- BackSlot
+- BackSlotAddon
+- Easy Anvils
+- Easy Enchanting
 ___
-### World Generation:
-- Overworld:
-  - Terralith
-  - Biomes O' Plenty
-  - Geophilic
-- Nether:
-  - Incendium
-- End:
-  - Nullscape
-  - Better End
-  - 
+### World Generation (Serverside):
+- Terralith
+- Geophilic
+- Incendium
+- Nullscape
+___
+### World Generation (Client & Server):
+- Biomes O' Plenty
+- Better End
+- The Aether
 ___
 ### Structures (Serverside):
 - YUNG's Better...
@@ -125,17 +155,23 @@ ___
   - Voyager Structures
 - Philips Ruins
 - When Dungeons Arise
-- Villages 
+- Villages & Pillages
+- Improved Pillager Outpost
+- Blossom Blade
 ___
 <!--### Structures (Client & Server):
 ___-->
+### Equipment:
+- Mythic Upgrades
+- Better Tridents
+- Advanced Netherite
+- Enchanting Infuser
+___
 ### Technical:
-- 
 ___
 ### Storage:
 - Toms Simple Storage
 - Traveler's Backpack
-- 
 ### Mechanics:
 - Create + Addons
   - Create: Deco
@@ -158,7 +194,6 @@ ___
   - Create: Trading Floor
   - Create: Dynamic Light
   - Create: Contraption Terminals
-  - 
 ___
 ### Food:
 - Farmer's Delight Refabricated
@@ -178,7 +213,6 @@ ___
   - Paths and Pavings
   - Lights and Lamps
   - Paintings
-- 
 ___
 ### Magic:
 - Botania
@@ -190,7 +224,6 @@ ___
 ### Miscellaneous:
 - Every Compat (Wood Good)
 - Every Compat (Stone Zone)
-- 
 ___
 ### Library (Clientside):
 - Terra Blender
@@ -219,5 +252,4 @@ ___
 - Trinkets
 - Forge Config API Port
 - Architectury API
-- 
 ___

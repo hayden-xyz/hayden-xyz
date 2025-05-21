@@ -2,7 +2,7 @@
 > <b>Loader:</b> Fabric <br>
 > <b>Version:</b> 1.20.1 <br>
 
-### Clientside QoA Mods:
+### Clientside QoL Mods:
 - Disable Custom Worlds Advice
 - No Chat Reports
 - 3D Skin Layers
@@ -50,7 +50,7 @@ ___
 - Let Me Despawn
 - 
 ___
-### Serverside QoA Mods:
+### Serverside QoL Mods:
 - No Chat Reports
 - Journeymap
 - Block Runner

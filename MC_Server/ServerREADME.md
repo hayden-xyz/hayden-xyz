@@ -2,6 +2,35 @@
 > <b>Loader:</b> Fabric <br>
 > <b>Version:</b> 1.20.1 <br>
 
+### Clientside Perfomance Mods:
+- Sodium
+  - Sodium Extra
+  - Sodium Shadowy Path Blocks
+  - Sodium Dynamic Lights
+  - Sodium Extras
+  - Sodium Options Mod Compat
+- Indium
+- ImmediatlyFast
+- ModernFix
+- Entity Culling
+- Memory Leak Fix
+- Enhanced Block Entities
+- Debugify
+- More Culling
+- Language Reload
+___
+### Serverside Perfomance Mods:
+- Lithium
+- Noisium
+- Async Locator
+- FerriteCore
+- Memory Leak Fix
+- ModernFix
+- Clumps
+- Debugify
+- Let Me Despawn
+- 
+___
 ### Clientside QoL Mods:
 - Disable Custom Worlds Advice
 - No Chat Reports
@@ -20,34 +49,10 @@
 - Jade
 - Sound Physics Remastered
 - Iris Shaders
-- 
-___
-### Clientside Perfomance Mods:
-- Sodium
-  - Sodium Extra
-  - Sodium Shadowy Path Blocks
-  - Sodium Dynamic Lights
-  - Sodium Extras
-  - Sodium Options Mod Compat
-- Indium
-- ImmediatlyFast
-- ModernFix
-- Entity Culling
-- Memory Leak Fix
-- Enhanced Block Entities
-- Debugify
-- 
-___
-### Serverside Perfomance Mods:
-- Lithium
-- Noisium
-- Async Locator
-- FerriteCore
-- Memory Leak Fix
-- ModernFix
-- Clumps
-- Debugify
-- Let Me Despawn
+- Shulker Box Tooltip
+- Carry On
+- Model Gap Fix
+- InvMove
 - 
 ___
 ### Serverside QoL Mods:
@@ -65,7 +70,7 @@ ___
 - Leaves Be Gone
 - RightClickHarvest
 - Universal Ores
-- 
+- Carry On
 ___
 ### World Gen Mods:
 - Overworld:
@@ -108,6 +113,7 @@ ___
 ___
 ### Storage Mods:
 - Toms Simple Storage
+- Traveler's Backpack
 - 
 ### Mechanical Mods:
 - Create + Addons
@@ -132,10 +138,35 @@ ___
   - Create: Dynamic Light
   - 
 ___
+### Food Mods:
+- Farmer's Delight Refabricated
+- Farmer's Knives
+- Farmer's Cutting: BetterEnd
+- Farmer's Cutting: Biomes O' Plenty
+- 
 ### Furniture Mods:
+- Macaw's...
+  - Furniture
+  - Fences and Walls
+  - Doors
+  - Windows
+  - Bridges
+  - Trapdoors
+  - Roofs
+  - Paths and Pavings
+  - Lights and Lamps
+  - Paintings
+- 
 ___
 ### Magical Mods:
 - Botania
+___
+### Miscellaneous / Compatiblity Mods:
+- Every Compat (Wood Good)
+- Every Compat (Stone Zone)
+- Uncraft Everything
+- ElytraSlot
+- 
 ___
 ### APIs / Library Mods:
 - Terra Blender

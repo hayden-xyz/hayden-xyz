@@ -64,6 +64,7 @@ ___
 - bad packets
 - Leaves Be Gone
 - RightClickHarvest
+- Universal Ores
 - 
 ___
 ### World Gen Mods:
@@ -98,6 +99,8 @@ ___
   - End Structures
   - Nether Structures
   - Voyager Structures
+- Philips Ruins
+- 
 ___
 ### Technical Mods:
 - Botania

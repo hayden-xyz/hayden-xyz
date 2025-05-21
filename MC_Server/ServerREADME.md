@@ -1,14 +1,13 @@
-> <b>Base Modpack:</b> BMC2 <br>
 > <b>Loader:</b> Fabric <br>
 > <b>Version:</b> 1.20.1 <br>
 ___
 ### Optimization (Clientside):
 - Sodium
-  - Sodium Extra
-  - Sodium Shadowy Path Blocks
-  - Sodium Dynamic Lights
-  - Sodium Extras
-  - Sodium Options Mod Compat
+- Sodium Extra
+- Sodium Shadowy Path Blocks
+- Sodium Dynamic Lights
+- Sodium Extras
+- Sodium Options Mod Compat
 - Indium
 - ImmediatlyFast
 - Entity Culling
@@ -69,7 +68,7 @@ ___
 - Cubes Without Borders
 - ToolTipFix
 - OptiGUI
-- BetterStatisticsScreen
+- Better Statistics Screen
 - More Chat History
 - Dark Loading Screen
 - Eating Animation
@@ -80,6 +79,20 @@ ___
 - Cut Through
 - Elytra Physics
 - Dont Clear Chat History
+- Completionist's Index
+- EMI Addon: Extra Mod Integraations
+- EMI Enchanting
+- EMI Trades
+- EMIffect
+- Fabrishot
+- Freecam
+- Gamma Utils
+- Leave My Bars Alone
+- Litematica
+- Litematica Enderchest Materials
+- Litemoretica
+- NBT Autocomplete
+- Not Enough Animations
 ___
 ### Utility (Serverside):
 - No Chat Reports
@@ -122,13 +135,17 @@ ___
 - BackSlot
 - BackSlotAddon
 - Easy Anvils
-- Easy Enchanting
+- Easy Magic
+- EMI
+- EMI Loot
+- Litematica Server Paster
 ___
 ### World Generation (Serverside):
 - Terralith
 - Geophilic
 - Incendium
 - Nullscape
+- Blooming Biosphere
 ___
 ### World Generation (Client & Server):
 - Biomes O' Plenty
@@ -136,15 +153,14 @@ ___
 - The Aether
 ___
 ### Structures (Serverside):
-- YUNG's Better...
-  - Nether Fortresses
-  - Dungeons
-  - Mineshafts
-  - Ocean Monuments
-  - Jungle Temples
-  - Strongholds
-  - Witch Huts
-  - End Island
+- YUNG's Better Nether Fortresses
+- YUNG's Better Dungeons
+- YUNG's Better Mineshafts
+- YUNG's Better Ocean Monuments
+- YUNG's Better Jungle Temples
+- YUNG's Better Strongholds
+- YUNG's Better Witch Huts
+- YUNG's Better End Island
 - YUNG's Bridges
 - YUNG's Extras
 - ChoiceTheorem's Overhauled Villages
@@ -155,24 +171,28 @@ ___
 - Dungeons and Taverns Pillager Outpost Overhaul
 - Dungeons and Taverns Swamp Hut Overhaul
 - Towns and Towers
-- Moogs:
-  - End Structures
-  - Nether Structures
-  - Voyager Structures
+- Moogs End Structures
+- Moogs Nether Structures
+- Moogs Voyager Structures
 - Philips Ruins
 - When Dungeons Arise
 - When Dungeons Arise: Seven Seas
 - Villages & Pillages
 - Improved Pillager Outpost
 - Blossom Blade
+- Formations Nether
+- Formations Overworld
+- Hearths
 ___
-<!--### Structures (Client & Server):
-___-->
+### Structures (Client & Server):
+- Illager Invasion
+___
 ### Equipment:
 - Mythic Upgrades
 - Better Tridents
 - Advanced Netherite
 - Enchanting Infuser
+- Elytra Trims
 ___
 ### Technical:
 ___
@@ -208,19 +228,17 @@ ___
 - Farmer's Knives
 - Farmer's Cutting: BetterEnd
 - Farmer's Cutting: Biomes O' Plenty
-- 
 ### Furniture:
-- Macaw's...
-  - Furniture
-  - Fences and Walls
-  - Doors
-  - Windows
-  - Bridges
-  - Trapdoors
-  - Roofs
-  - Paths and Pavings
-  - Lights and Lamps
-  - Paintings
+- Macaw's Furniture
+- Macaw's Fences and Walls
+- Macaw's Doors
+- Macaw's Windows
+- Macaw's Bridges
+- Macaw's Trapdoors
+- Macaw's Roofs
+- Macaw's Paths and Pavings
+- Macaw's Lights and Lamps
+- Macaw's Paintings
 ___
 ### Magic:
 - Botania
@@ -251,6 +269,7 @@ ___
 - Collective
 - Almanac
 - Lithostitched
+- Formations (Structure Lib)
 ___
 ### Library (Client & Server):
 - Fabric API

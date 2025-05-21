@@ -79,6 +79,7 @@ ___
 - Detail Armor Bar
 - Cut Through
 - Elytra Physics
+- Dont Clear Chat History
 ___
 ### Utility (Serverside):
 - No Chat Reports
@@ -101,6 +102,7 @@ ___
 - Carpet Extra
 - Fake AFK
 - Better Than Mending
+- Sparse Structures
 ___
 ### Utility (Client & Server):
 - Carry On
@@ -148,6 +150,10 @@ ___
 - ChoiceTheorem's Overhauled Villages
 - Explorify
 - Dungeons and Taverns
+- Dungeons and Taverns Ancient City Overhaul
+- Dungeons and Taverns Stronghold Overhaul
+- Dungeons and Taverns Pillager Outpost Overhaul
+- Dungeons and Taverns Swamp Hut Overhaul
 - Towns and Towers
 - Moogs:
   - End Structures
@@ -155,6 +161,7 @@ ___
   - Voyager Structures
 - Philips Ruins
 - When Dungeons Arise
+- When Dungeons Arise: Seven Seas
 - Villages & Pillages
 - Improved Pillager Outpost
 - Blossom Blade
@@ -172,6 +179,7 @@ ___
 ### Storage:
 - Toms Simple Storage
 - Traveler's Backpack
+- Copper Hopper
 ### Mechanics:
 - Create + Addons
   - Create: Deco
@@ -220,16 +228,14 @@ ___
 ### Building:
 - Stoneworks
 - Twigs
+- Copper and Tuff Backport
 ___
 ### Miscellaneous:
 - Every Compat (Wood Good)
 - Every Compat (Stone Zone)
 ___
 ### Library (Clientside):
-- Terra Blender
 - YUNG's API
-- Lithostitched
-- Almanac
 - Cloth Config API
 - Fabric Language Kotlin
 - Architectury API
@@ -243,6 +249,8 @@ ___
 ___
 ### Library (Serverside):
 - Collective
+- Almanac
+- Lithostitched
 ___
 ### Library (Client & Server):
 - Fabric API
@@ -252,4 +260,5 @@ ___
 - Trinkets
 - Forge Config API Port
 - Architectury API
+- TerraBlender
 ___

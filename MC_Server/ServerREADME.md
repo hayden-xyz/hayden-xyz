@@ -1,4 +1,4 @@
-> <b>Loader:</b> Fabric <br>
+> <b>Loader:</b> Fabric 0.16.14 <br>
 > <b>Version:</b> 1.20.1 <br>
 ___
 ### Optimization (Clientside):

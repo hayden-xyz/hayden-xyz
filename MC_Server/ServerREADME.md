@@ -2,7 +2,7 @@
 > <b>Loader:</b> Fabric <br>
 > <b>Version:</b> 1.20.1 <br>
 
-### Clientside Perfomance Mods:
+### Optimization (Clientside):
 - Sodium
   - Sodium Extra
   - Sodium Shadowy Path Blocks
@@ -11,32 +11,29 @@
   - Sodium Options Mod Compat
 - Indium
 - ImmediatlyFast
-- ModernFix
 - Entity Culling
-- Memory Leak Fix
 - Enhanced Block Entities
-- Debugify
 - More Culling
 - Language Reload
+- Starlight
 ___
-### Serverside Perfomance Mods:
+### Optimization (Serverside):
 - Lithium
 - Noisium
 - Async Locator
-- FerriteCore
-- Memory Leak Fix
-- ModernFix
 - Clumps
-- Debugify
 - Let Me Despawn
 - 
 ___
-### Clientside QoL Mods:
+### Optimization (Client & Server):
+- ModernFix
+- Debugify
+- Memory Leak Fix
+- FerriteCore
+___
+### Utility (Clientside):
 - Disable Custom Worlds Advice
-- No Chat Reports
 - 3D Skin Layers
-- Journeymap
-- Appleskin
 - Entity Model Features
 - Entity Texture Features
 - Zoomify
@@ -46,22 +43,27 @@ ___
 - Dynamic FPS
 - Continuity
 - Reese's Sodium Options
-- Jade
 - Sound Physics Remastered
 - Iris Shaders
 - Shulker Box Tooltip
-- Carry On
 - Model Gap Fix
 - InvMove
+- Chat Heads
+- Controlling
+- CIT Resewn
+- Cubes Without Borders
+- ToolTipFix
+- OptiGUI
+- BetterStatisticsScreen
+- More Chat History
+- Dark Loading Screen
 - 
 ___
-### Serverside QoL Mods:
+### Utility (Serverside):
 - No Chat Reports
 - Journeymap
 - Block Runner
 - Bow Infinity Fix
-- Chat Heads
-- Carry On
 - AppleSkin
 - Jade
 - Krypton
@@ -70,9 +72,22 @@ ___
 - Leaves Be Gone
 - RightClickHarvest
 - Universal Ores
-- Carry On
+- FallingTree
 ___
-### World Gen Mods:
+### Utility (Client & Server):
+- Carry On
+- Journeymap
+- Appleskin
+- No Chat Reports
+- Block Runner
+- Jade
+- MixinTrace
+- Packet Fixer
+- Polymorph
+- Uncraft Everything
+- ElytraSlot
+___
+### World Generation:
 - Overworld:
   - Terralith
   - Biomes O' Plenty
@@ -84,7 +99,7 @@ ___
   - Better End
   - 
 ___
-### Structure Mods:
+### Structures (Serverside):
 - YUNG's Better...
   - Nether Fortresses
   - Dungeons
@@ -107,15 +122,16 @@ ___
 - Philips Ruins
 - 
 ___
-### Technical Mods:
-- Botania
+<!--### Structures (Client & Server):
+___-->
+### Technical:
 - 
 ___
-### Storage Mods:
+### Storage:
 - Toms Simple Storage
 - Traveler's Backpack
 - 
-### Mechanical Mods:
+### Mechanics:
 - Create + Addons
   - Create: Deco
   - Create: Slice & Dice
@@ -138,13 +154,13 @@ ___
   - Create: Dynamic Light
   - 
 ___
-### Food Mods:
+### Food:
 - Farmer's Delight Refabricated
 - Farmer's Knives
 - Farmer's Cutting: BetterEnd
 - Farmer's Cutting: Biomes O' Plenty
 - 
-### Furniture Mods:
+### Furniture:
 - Macaw's...
   - Furniture
   - Fences and Walls
@@ -158,23 +174,19 @@ ___
   - Paintings
 - 
 ___
-### Magical Mods:
+### Magic:
 - Botania
 ___
-### Miscellaneous / Compatiblity Mods:
+### Miscellaneous:
 - Every Compat (Wood Good)
 - Every Compat (Stone Zone)
-- Uncraft Everything
-- ElytraSlot
 - 
 ___
-### APIs / Library Mods:
+### Library (Clientside):
 - Terra Blender
 - YUNG's API
 - Lithostitched
-- Collective
 - Almanac
-- YetAnotherConfigLib (YACL)
 - Cloth Config API
 - Fabric Language Kotlin
 - Architectury API
@@ -183,8 +195,17 @@ ___
 - Puzzles Lib
 - Geckolib
 - Sodium Options API
-- Forge Config API Port
 - CICADA
 - Botarium
-- 
+___
+### Library (Serverside):
+- Collective
+___
+### Library (Client & Server):
+- Fabric API
+- Fabric Language Kotlin
+- YetAnotherConfigLib (YACL)
+- Bookshelf
+- Trinkets
+- Forge Config API Port
 ___

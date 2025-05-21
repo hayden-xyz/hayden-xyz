@@ -93,6 +93,11 @@ ___
 - Litemoretica
 - NBT Autocomplete
 - Not Enough Animations
+- Pick Up Notifier
+- Recursive Resources
+- Resourcify
+- Smooth Menu Refabricated
+- Wavey Capes
 ___
 ### Utility (Serverside):
 - No Chat Reports
@@ -139,6 +144,9 @@ ___
 - EMI
 - EMI Loot
 - Litematica Server Paster
+- Tax Free Levels
+- Universal Bonemeal
+- Universal Enchants
 ___
 ### World Generation (Serverside):
 - Terralith
@@ -146,6 +154,8 @@ ___
 - Incendium
 - Nullscape
 - Blooming Biosphere
+- River Redux
+- Snow Under Trees
 ___
 ### World Generation (Client & Server):
 - Biomes O' Plenty
@@ -200,6 +210,10 @@ ___
 - Toms Simple Storage
 - Traveler's Backpack
 - Copper Hopper
+- Reinforced Barrels
+- Reinforced Chests
+- Reinforced Shulker Boxes
+- Simple Copper Pipes
 ### Mechanics:
 - Create + Addons
   - Create: Deco
@@ -264,6 +278,7 @@ ___
 - Sodium Options API
 - CICADA
 - Botarium
+- Resource Pack Overrides
 ___
 ### Library (Serverside):
 - Collective

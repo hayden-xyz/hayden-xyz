@@ -57,6 +57,7 @@ ___
 - BetterStatisticsScreen
 - More Chat History
 - Dark Loading Screen
+- Eating Animation
 - 
 ___
 ### Utility (Serverside):
@@ -86,6 +87,9 @@ ___
 - Polymorph
 - Uncraft Everything
 - ElytraSlot
+- Explorer's Compass
+- Nature's Compass
+- 
 ___
 ### World Generation:
 - Overworld:
@@ -120,7 +124,8 @@ ___
   - Nether Structures
   - Voyager Structures
 - Philips Ruins
-- 
+- When Dungeons Arise
+- Villages 
 ___
 <!--### Structures (Client & Server):
 ___-->
@@ -152,6 +157,7 @@ ___
   - Create: Trimmed
   - Create: Trading Floor
   - Create: Dynamic Light
+  - Create: Contraption Terminals
   - 
 ___
 ### Food:
@@ -176,6 +182,10 @@ ___
 ___
 ### Magic:
 - Botania
+___
+### Building:
+- Stoneworks
+- Twigs
 ___
 ### Miscellaneous:
 - Every Compat (Wood Good)
@@ -208,4 +218,6 @@ ___
 - Bookshelf
 - Trinkets
 - Forge Config API Port
+- Architectury API
+- 
 ___

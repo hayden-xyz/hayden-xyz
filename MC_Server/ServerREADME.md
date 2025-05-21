@@ -13,14 +13,41 @@
 - Zoomify
 - BetterF3
 - Block Runner
+- Mod Menu
+- Dynamic FPS
+- Continuity
+- Reese's Sodium Options
+- Jade
+- Sound Physics Remastered
+- Iris Shaders
 - 
 ___
 ### Clientside Perfomance Mods:
+- Sodium
+  - Sodium Extra
+  - Sodium Shadowy Path Blocks
+  - Sodium Dynamic Lights
+  - Sodium Extras
+  - Sodium Options Mod Compat
+- Indium
+- ImmediatlyFast
+- ModernFix
+- Entity Culling
+- Memory Leak Fix
+- Enhanced Block Entities
+- Debugify
+- 
 ___
 ### Serverside Perfomance Mods:
 - Lithium
 - Noisium
 - Async Locator
+- FerriteCore
+- Memory Leak Fix
+- ModernFix
+- Clumps
+- Debugify
+- Let Me Despawn
 - 
 ___
 ### Serverside QoA Mods:
@@ -30,11 +57,26 @@ ___
 - Bow Infinity Fix
 - Chat Heads
 - Carry On
+- AppleSkin
+- Jade
+- Krypton
+- NetherPortalFix
+- bad packets
+- Leaves Be Gone
+- RightClickHarvest
+- 
 ___
 ### World Gen Mods:
-- Terralith
-- Biomes O' Plenty
-- Geophilic
+- Overworld:
+  - Terralith
+  - Biomes O' Plenty
+  - Geophilic
+- Nether:
+  - Incendium
+- End:
+  - Nullscape
+  - Better End
+  - 
 ___
 ### Structure Mods:
 - YUNG's Better...
@@ -50,9 +92,16 @@ ___
 - YUNG's Extras
 - ChoiceTheorem's Overhauled Villages
 - Explorify
-- 
+- Dungeons and Taverns
+- Towns and Towers
+- Moogs:
+  - End Structures
+  - Nether Structures
+  - Voyager Structures
 ___
 ### Technical Mods:
+- Botania
+- 
 ___
 ### Storage Mods:
 - Toms Simple Storage
@@ -83,6 +132,7 @@ ___
 ### Furniture Mods:
 ___
 ### Magical Mods:
+- Botania
 ___
 ### APIs / Library Mods:
 - Terra Blender
@@ -90,5 +140,17 @@ ___
 - Lithostitched
 - Collective
 - Almanac
+- YetAnotherConfigLib (YACL)
+- Cloth Config API
+- Fabric Language Kotlin
+- Architectury API
+- Fabric API
+- Balm
+- Puzzles Lib
+- Geckolib
+- Sodium Options API
+- Forge Config API Port
+- CICADA
+- Botarium
 - 
 ___

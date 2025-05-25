@@ -240,12 +240,15 @@ ___
   - Create: Trading Floor
   - Create: Dynamic Light
   - Create: Contraption Terminals
+- Applied Energistics 2
 ___
 ### Food:
 - Farmer's Delight Refabricated
 - Farmer's Knives
 - Farmer's Cutting: BetterEnd
 - Farmer's Cutting: Biomes O' Plenty
+- Ender's Delight
+- Expanded Delight
 ### Furniture:
 - Macaw's Furniture
 - Macaw's Fences and Walls

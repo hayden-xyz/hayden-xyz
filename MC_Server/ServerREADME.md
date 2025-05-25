@@ -98,6 +98,7 @@ ___
 - Resourcify
 - Smooth Menu Refabricated
 - Wavey Capes
+- Overflowing Bars
 ___
 ### Utility (Serverside):
 - No Chat Reports
@@ -121,6 +122,7 @@ ___
 - Fake AFK
 - Better Than Mending
 - Sparse Structures
+- Hopper Speed Simulator
 ___
 ### Utility (Client & Server):
 - Carry On
@@ -253,6 +255,8 @@ ___
 - Macaw's Paths and Pavings
 - Macaw's Lights and Lamps
 - Macaw's Paintings
+- Another Furniture
+- Re:Deco
 ___
 ### Magic:
 - Botania

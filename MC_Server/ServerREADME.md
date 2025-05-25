@@ -218,6 +218,7 @@ ___
 - Reinforced Chests
 - Reinforced Shulker Boxes
 - Simple Copper Pipes
+___
 ### Mechanics:
 - Create + Addons
   - Create: Deco
@@ -249,6 +250,7 @@ ___
 - Farmer's Cutting: Biomes O' Plenty
 - Ender's Delight
 - Expanded Delight
+___
 ### Furniture:
 - Macaw's Furniture
 - Macaw's Fences and Walls

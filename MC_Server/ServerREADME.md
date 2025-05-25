@@ -149,6 +149,8 @@ ___
 - Tax Free Levels
 - Universal Bonemeal
 - Universal Enchants
+- Animal Feeding Trough
+- What Are They Up To (Watut)
 ___
 ### World Generation (Serverside):
 - Terralith

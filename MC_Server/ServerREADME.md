@@ -209,6 +209,8 @@ ___
 - Elytra Trims
 ___
 ### Technical:
+- Hephaestus
+- Applied Energistics 2 (AE2)
 ___
 ### Storage:
 - Toms Simple Storage
@@ -241,7 +243,6 @@ ___
   - Create: Trading Floor
   - Create: Dynamic Light
   - Create: Contraption Terminals
-- Applied Energistics 2
 ___
 ### Food:
 - Farmer's Delight Refabricated

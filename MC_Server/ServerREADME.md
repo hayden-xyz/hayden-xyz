@@ -84,6 +84,7 @@ ___
 - EMI Enchanting
 - EMI Trades
 - EMIffect
+- AE2 EMI Crafting Integration
 - Fabrishot
 - Freecam
 - Gamma Utils
@@ -211,6 +212,7 @@ ___
 ### Technical:
 - Hephaestus
 - Applied Energistics 2 (AE2)
+- Modern Dynamics
 ___
 ### Storage:
 - Toms Simple Storage
@@ -243,6 +245,7 @@ ___
   - Create: Trading Floor
   - Create: Dynamic Light
   - Create: Contraption Terminals
+  - Create: Nuclear
 ___
 ### Food:
 - Farmer's Delight Refabricated
@@ -273,6 +276,9 @@ ___
 - Stoneworks
 - Twigs
 - Copper and Tuff Backport
+___
+### Social:
+- Polaroid Camera
 ___
 ### Miscellaneous:
 - Every Compat (Wood Good)

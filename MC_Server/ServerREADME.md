@@ -223,29 +223,33 @@ ___
 - Reinforced Shulker Boxes
 - Simple Copper Pipes
 ___
-### Mechanics:
-- Create + Addons
-  - Create: Deco
-  - Create: Slice & Dice
-  - Create: Crafts & Additions
-  - Create: Steam 'n' Rails
-  - Create: New Age
-  - Create: Structures
-  - Create: Estrogen
-  - Create: Interiors
-  - Create: Enchantment Industry
-  - Create: Let The Adventure Begin
-  - Create: Power Loader
-  - Create: Garnished
-  - Create: High Pressure
-  - Create: Oxidized
-  - Create: Copper & Zinc
-  - Create: Cobblestone
-  - Create: Trimmed
-  - Create: Trading Floor
-  - Create: Dynamic Light
-  - Create: Contraption Terminals
-  - Create: Nuclear
+### Mechanical:
+- Create
+___
+### Create Addons:
+- Create: Deco
+- Create: Slice & Dice
+- Create: Crafts & Additions
+- Create: Steam 'n' Rails
+- Create: New Age
+- Create: Structures
+- Create: Estrogen
+- Create: Interiors
+- Create: Enchantment Industry
+- Create: Let The Adventure Begin
+- Create: Power Loader
+- Create: Garnished
+- Create: High Pressure
+- Create: Oxidized
+- Create: Copper & Zinc
+- Create: Cobblestone
+- Create: Trimmed
+- Create: Trading Floor
+- Create: Dynamic Light
+- Create: Contraption Terminals
+- Create: Nuclear
+- Create: Food
+- Create: Cobblestone
 ___
 ### Food:
 - Farmer's Delight Refabricated

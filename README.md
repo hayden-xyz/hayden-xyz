@@ -38,6 +38,9 @@ ___
 ___
 ### Configs / Dots:
 
+#### MC Server:
+- [Modlist](MC_Server/ServerREADME.md)
+
 #### Browser Extensions:
 - [Dark Reader](configs/BrowserExtensions/DarkReader)
 - [mtab](configs/BrowserExtensions/mtab)

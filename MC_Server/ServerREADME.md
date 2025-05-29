@@ -23,6 +23,7 @@ ___
 - Better Biome Reblend
 - Client Side Noteblocks
 - ThreatenGL
+- Bad Optimizations
 ___
 ### Optimization (Serverside):
 - Lithium
@@ -40,10 +41,10 @@ ___
 - Debugify
 - Memory Leak Fix
 - FerriteCore
-- ScalableLux
 - Fast Paintings
 - Achievement Optimizer
 - Fast Item Frames
+- Starlight
 ___
 ### Utility (Clientside):
 - Disable Custom Worlds Advice
@@ -73,9 +74,11 @@ ___
 - Dark Loading Screen
 - Eating Animation
 - Item Borders
+- Item Highlighter
 - Better Trim Tooltips
 - Dynamic Trim
 - Detail Armor Bar
+- Detail Armor Bar Compat
 - Cut Through
 - Elytra Physics
 - Dont Clear Chat History
@@ -100,6 +103,12 @@ ___
 - Smooth Menu Refabricated
 - Wavey Capes
 - Overflowing Bars
+- Easier Villager Trading
+- Bad Wither No Cookie - Reloaded
+- Item Suggestions Not Require Mod Name
+- No Telemetry
+- Show Me Your Skin
+- PronounMC
 ___
 ### Utility (Serverside):
 - No Chat Reports
@@ -124,6 +133,12 @@ ___
 - Better Than Mending
 - Sparse Structures
 - Hopper Speed Simulator
+- from bad to good
+- Lodestone Update Backport
+- Bundle Recipe
+- Saddle Backport
+- Name Tag Tweaks
+- Named Traders
 ___
 ### Utility (Client & Server):
 - Carry On
@@ -152,9 +167,12 @@ ___
 - Universal Enchants
 - Animal Feeding Trough
 - What Are They Up To (Watut)
+- Grind Enchantments
+- More Mob Variants
 ___
 ### World Generation (Serverside):
 - Terralith
+- Tectonic
 - Geophilic
 - Incendium
 - Nullscape
@@ -198,6 +216,8 @@ ___
 - Formations Nether
 - Formations Overworld
 - Hearths
+- Tidal Towns
+- CTOV - Create: Structures
 ___
 ### Structures (Client & Server):
 - Illager Invasion
@@ -211,6 +231,9 @@ ___
 ___
 ### Technical:
 - Hephaestus
+- HephaestusPlus
+- Hephaestus Expansion
+- HephaesTools
 - Applied Energistics 2 (AE2)
 - Modern Dynamics
 ___
@@ -249,7 +272,8 @@ ___
 - Create: Contraption Terminals
 - Create: Nuclear
 - Create: Food
-- Create: Cobblestone
+- Create: Stones
+- Create: Rustic Structures
 ___
 ### Food:
 - Farmer's Delight Refabricated
@@ -258,6 +282,18 @@ ___
 - Farmer's Cutting: Biomes O' Plenty
 - Ender's Delight
 - Expanded Delight
+- Ocean's Delight
+- Nether's Delight Refabricated
+- More Delight
+- Crate Delight
+- Storage Delight
+- Rustic Delight
+- Vegan Delight
+- Dumplings Delight Rewrapped
+- Fancy Delight
+- Corn Delight
+- Cultural Delight
+- Chef's Delight
 ___
 ### Furniture:
 - Macaw's Furniture
@@ -283,30 +319,25 @@ ___
 ___
 ### Social:
 - Polaroid Camera
+- Be Proud
 ___
 ### Miscellaneous:
 - Every Compat (Wood Good)
 - Every Compat (Stone Zone)
 ___
 ### Library (Clientside):
-- YUNG's API
-- Cloth Config API
-- Fabric Language Kotlin
-- Architectury API
-- Fabric API
-- Balm
-- Puzzles Lib
-- Geckolib
 - Sodium Options API
 - CICADA
 - Botarium
 - Resource Pack Overrides
+- Configurable
 ___
 ### Library (Serverside):
 - Collective
 - Almanac
 - Lithostitched
 - Formations (Structure Lib)
+- Fzzy Config
 ___
 ### Library (Client & Server):
 - Fabric API
@@ -317,4 +348,10 @@ ___
 - Forge Config API Port
 - Architectury API
 - TerraBlender
+- Cloth Config API
+- YUNG's API
+- Balm
+- Puzzles Lib
+- Geckolib
+- Necronomicon
 ___

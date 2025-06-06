@@ -13,11 +13,11 @@ ___
 ### My current setup 🖥️
 
 #### Main PC:
-- CPU: Ryzen 9 3900X
+- CPU: Ryzen 7 9800x3D
 - GPU: RTX 3060
-- RAM: 64GB DDR4 3200 MT/s
-- Storage: 256GB (m.2 NVME) + 2TB (m.2 SATA)
-- OS: Modified Windows 11 (no Recall, Copilot)
+- RAM: 64GB DDR5 6000 MT/s
+- Storage: 256GB (m.2 | PCIe 3.0) + 2x 4TB (m.2 | PCIe 4.0)
+- OS: Windows 11 + CachyOS
 
 #### Secondary PC
 - CPU: i5 4570

@@ -58,7 +58,7 @@ ___
 
 ___
 ### Socials: 
-- [Bluesky](https://bsky.app/profile/mcxt.bsky.social)
-- [Instagram](https://www.instagram.com/_henri.161)
-- [TikTok](https://www.tiktok.com/@_mcxt)
+- [Bluesky](https://bsky.app/profile/hayden-161.bsky.social)
+- [Instagram](https://www.instagram.com/_hayden.161)
+- [TikTok](https://www.tiktok.com/@_henri.161)
 - [Twitch](https://www.twitch.tv/noobiedevx)

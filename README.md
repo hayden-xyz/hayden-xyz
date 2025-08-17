@@ -12,12 +12,12 @@
 ___
 ### My current setup 🖥️
 
-#### Main PC:
+#### Primary PC:
 - CPU: Ryzen 7 9800x3D
 - GPU: RTX 3060
 - RAM: 64GB DDR5 6000 MT/s
-- Storage: 256GB (m.2 | PCIe 3.0) + 2x 4TB (m.2 | PCIe 4.0)
-- OS: Windows 11 + CachyOS
+- Storage: 256GB (NVMe / PCIe 3.0) + 2x 4TB (NVMe / PCIe 4.0)
+- OS: Windows 11 + Archlinux
 
 #### Secondary PC
 - CPU: i5 4570

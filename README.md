@@ -52,9 +52,9 @@ ___
 ___
 ### Stats 📊
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NoobieDevX&show_icons=true&hide_border=true&count_private=true&bg_color=24273a&title_color=c6a0f6&icon_color=c6a0f6&text_color=cad3f5)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hayden-xyz&show_icons=true&hide_border=true&count_private=true&bg_color=24273a&title_color=c6a0f6&icon_color=c6a0f6&text_color=cad3f5)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=NoobieDevX&show_icons=true&hide_border=true&layout=compact&bg_color=24273a&title_color=c6a0f6&icon_color=c6a0f6&text_color=cad3f5)
+![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=hayden-xyz&show_icons=true&hide_border=true&layout=compact&bg_color=24273a&title_color=c6a0f6&icon_color=c6a0f6&text_color=cad3f5)
 
 ___
 ### Socials: 

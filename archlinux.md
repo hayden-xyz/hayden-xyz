@@ -20,6 +20,10 @@
 - Modrinth App
 - Vesktop
 
+## Media:
+
+- High Tide
+
 ## Vesktop Themes:
 
 - midnight (catppuccin macchiato)
@@ -49,6 +53,14 @@
 - Winetricks
 - Flatpak
 - VSCodium
+- Localsend
+- Mangojuice
+- MangoHUD
+- Refine
+- OpenRGB
+- Flatseal
+- Gnome Tweaks
+- Btop
 
 ## Kernel:
 

@@ -1,11 +1,11 @@
 # Btrfs Subvolumes
 
-- @             /
-- @home         /home
-- @snapshots    /.snapshots
-- @log          /var/log
-- @cache        /var/cache
-- @tmp          /var/tmp
+- @            /
+- @home        /home
+- @snapshots   /.snapshots
+- @log         /var/log
+- @cache       /var/cache
+- @tmp         /var/tmp
 
 # Packages
 

@@ -46,8 +46,10 @@ ___
 - [mtab](configs/BrowserExtensions/mtab)
 - [uBlock Origin](configs/BrowserExtensions/uBlockOrigin)
 
+<!--
 #### AutoDesk
 - [Inventor Config](configs/AutoDesk)
+-->
 
 ___
 ### Stats 📊

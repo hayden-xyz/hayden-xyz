@@ -14,10 +14,10 @@ ___
 
 #### Primary PC:
 - CPU: Ryzen 7 9800x3D
-- GPU: RTX 3060
+- GPU: RX 9070 XT
 - RAM: 64GB DDR5 6000 MT/s
-- Storage: 256GB (NVMe / PCIe 3.0) + 2x 4TB (NVMe / PCIe 4.0)
-- OS: Windows 11 + Archlinux
+- Storage: 1TB NVMe + 2x 4TB NVMe
+- OS: Archlinux
 
 #### Secondary PC
 - CPU: i5 4570
@@ -33,7 +33,7 @@ ___
 
 #### Peripherals:
 - Keyboard: Logitech G213 Prodigy
-- Mouse: Corsair Harpoon RGB Pro
+- Mouse: G502x Lightspeed White
 - Headset: Corsair HS60 Pro
 ___
 ### Configs / Dots:

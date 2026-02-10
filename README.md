@@ -4,7 +4,6 @@
 - [About Me](#about-me-)
 - [Socials](#socials)
 - [My current Setup](#my-current-setup-%EF%B8%8F)
-- [!DEAD LINK! Configs / Dots](#configs--dots)
 - [Stats](#stats-)
 
 ### About me 👤

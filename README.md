@@ -36,6 +36,7 @@ ___
 - Mouse: G502x Lightspeed White
 - Headset: Corsair HS60 Pro
 ___
+<!--
 ### Configs / Dots:
 
 #### MC Server:
@@ -46,7 +47,7 @@ ___
 - [mtab](configs/BrowserExtensions/mtab)
 - [uBlock Origin](configs/BrowserExtensions/uBlockOrigin)
 
-<!--
+
 #### AutoDesk
 - [Inventor Config](configs/AutoDesk)
 -->

@@ -1,0 +1,59 @@
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  OS
+//
+//  by Bina
+
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "arch_small", // search for logos: fastfetch --list-logos or --print-logos
+        "padding": {
+	        "top": 1,
+	        "left": 2
+	},
+    },
+    "display": {
+        "separator": " ›  "
+    },
+    "modules": [
+	"break",
+	"title",
+        {
+            "type": "os",
+            "key": "\udb82\udcc7  ",
+            "keyColor": "#8aadf4",  // = color3
+        },
+        {
+            "type": "kernel",
+            "key": "\uf013  ",
+            "keyColor": "#8aadf4",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": "\udb82\udfaf  ",
+            "keyColor": "#8aadf4",
+        },
+        {
+            "type": "cpu",
+            "format": "",
+            "key": "\uf4bc  ",
+            "keyColor": "#8aadf4",
+        },
+        {
+            "type": "memory",
+            "key": "\uefc5  ",
+            "keyColor": "#8aadf4",
+        },
+                {
+            "type": "host",
+            "format": "{5} {1}",
+            "key": "\udb82\udeab  ",
+            "keyColor": "#8aadf4",
+        },
+        "break",
+    ]
+}

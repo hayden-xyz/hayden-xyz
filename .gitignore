@@ -4,6 +4,7 @@ dotfiles/linux/.config/btop/themes/
 dotfiles/linux/.config/gtk-3.0/assets/
 dotfiles/linux/.config/gtk-4.0/assets/
 dotfiles/linux/.config/fish/completions/
+dotfiles/linux/.config/fish/conf.d/
 
 ## Files ##
 dotfiles/linux/.config/fastfetch/groups.jsonc
@@ -11,3 +12,5 @@ dotfiles/linux/.config/fastfetch/minimal.jsonc
 dotfiles/linux/.config/fastfetch/standard_config.jsonc
 dotfiles/linux/.config/fish/functions/start-server.fish
 dotfiles/linux/.config/fish/functions/start-server2.fish
+dotfiles/linux/.config/fish/catppuccin_macchiato.omp.json
+dotfiles/linux/.config/fish/fish_variables

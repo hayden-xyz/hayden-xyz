@@ -1,6 +1,8 @@
 ## Directories ##
 .old/
 dotfiles/linux/.config/btop/themes/
+dotfiles/linux/.config/gtk-3.0/assets/
+dotfiles/linux/.config/gtk-4.0/assets/
 
 ## Files ##
 dotfiles/linux/.config/fastfetch/groups.jsonc

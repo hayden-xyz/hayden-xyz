@@ -36,6 +36,8 @@ ___
 - Mouse: G502x Lightspeed White
 - Headset: Corsair HS60 Pro
 ___
+
+### - Config section is being rewritten -
 <!--
 ### Configs / Dots:
 

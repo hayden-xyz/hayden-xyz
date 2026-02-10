@@ -17,7 +17,7 @@ ___
 - GPU: RX 9070 XT
 - RAM: 64GB DDR5 6000 MT/s
 - Storage: 1TB NVMe + 2x 4TB NVMe
-- OS: Archlinux
+- OS: Win11 + Arch
 
 #### Secondary PC
 - CPU: i5 4570
@@ -62,5 +62,5 @@ ___
 ### Socials: 
 - [Bluesky](https://bsky.app/profile/hayden-161.bsky.social)
 - [Instagram](https://www.instagram.com/_hayden.161)
-- [TikTok](https://www.tiktok.com/@_henri.161)
+- [TikTok](https://www.tiktok.com/@_hayden.161)
 - [Twitch](https://www.twitch.tv/noobiedevx)

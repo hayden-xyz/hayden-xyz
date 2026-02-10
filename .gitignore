@@ -1,0 +1,8 @@
+## Directories ##
+.old/
+dotfiles/linux/.config/btop/themes/
+
+## Files ##
+dotfiles/linux/.config/fastfetch/groups.jsonc
+dotfiles/linux/.config/fastfetch/minimal.jsonc
+dotfiles/linux/.config/fastfetch/standard_config.jsonc

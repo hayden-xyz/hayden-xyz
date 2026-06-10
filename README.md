@@ -11,19 +11,12 @@
 ___
 ### My current setup 🖥️
 
-#### Primary PC:
+#### My PC specs:
 - CPU: Ryzen 7 9800x3D
 - GPU: RX 9070 XT
-- RAM: 64GB DDR5 6000 MT/s
-- Storage: 1TB NVMe + 2x 4TB NVMe
-- OS: Win11 + Arch
-
-#### Secondary PC
-- CPU: i5 4570
-- GPU: RX 6400
-- RAM: 32GB DDR3 1600 MT/s
-- Storage: 1TB SATA SSD
-- OS: Archlinux
+- RAM: 64GB DDR5 6000 MT/s CL30
+- Storage: 1TB NVMe + 2x 4TB NVMe + 2TB HDD
+- OS: NixOS
 
 #### Primary Monitor:
 - LG Ultragear 27GN800P-B | 2560 x 1440 | 144Hz
@@ -33,7 +26,7 @@ ___
 #### Peripherals:
 - Keyboard: Logitech G213 Prodigy
 - Mouse: G502x Lightspeed White
-- Headset: Corsair HS60 Pro
+- Headset: Corsair HS80 RGB Wired
 ___
 
 ### - Config section is being rewritten -
@@ -65,4 +58,4 @@ ___
 - [Bluesky](https://bsky.app/profile/hayden-161.bsky.social)
 - [Instagram](https://www.instagram.com/_hayden.161)
 - [TikTok](https://www.tiktok.com/@_hayden.161)
-- [Twitch](https://www.twitch.tv/noobiedevx)
+- [Twitch](https://www.twitch.tv/hayden_161_)

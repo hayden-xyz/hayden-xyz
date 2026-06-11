@@ -14,3 +14,4 @@ dotfiles/linux/.config/fish/functions/start-server.fish
 dotfiles/linux/.config/fish/functions/start-server2.fish
 dotfiles/linux/.config/fish/catppuccin_macchiato.omp.json
 dotfiles/linux/.config/fish/fish_variables
+*.kate-swp

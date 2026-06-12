@@ -41,7 +41,7 @@ ___
 - [Instagram](https://www.instagram.com/_hayden.161)
 - [TikTok](https://www.tiktok.com/@_hayden.161)
 - [Twitch](https://www.twitch.tv/hayden_161_)
-
+<br>
 <p align="center">
 <img src="https://media1.tenor.com/m/ATQuavHs8WkAAAAC/lgbtq-lgbt.gif">
 </p>

@@ -1,12 +1,10 @@
-<h1 align="center">Hello there 👋</h1>
+<div class="tenor-gif-embed" data-postid="26395745" data-share-method="host" data-aspect-ratio="8" data-width="100%"><a href="https://tenor.com/view/pixel-blinkie-blinkiescafe-blinkies-2000s-gif-26395745">Pixel Blinkie GIF</a>from <a href="https://tenor.com/search/pixel-gifs">Pixel GIFs</a></div>
 
-### Sections:
-- [About Me](#about-me-)
-- [Socials](#socials)
-- [My current Setup](#my-current-setup-%EF%B8%8F)
-- [Stats](#stats-)
+### Configs / Dots:
 
-### About me 👤
+- <b>[linux-dots](dotfiles/linux/.config)</b>
+- <b>[windows-dots](dotfiles/windows/.config)</b>
+- <b>[nixos config](nixos/)</b>
 
 ___
 ### My current setup 🖥️
@@ -27,13 +25,6 @@ ___
 - Keyboard: Logitech G213 Prodigy
 - Mouse: G502x Lightspeed White
 - Headset: Corsair HS80 RGB Wired
-___
-
-### Configs / Dots:
-
-- <b>[linux-dots](dotfiles/linux/.config)</b>
-- <b>[windows-dots](dotfiles/windows/.config)</b>
-- <b>[nixos config](nixos/)</b>
 
 ___
 ### Stats 📊

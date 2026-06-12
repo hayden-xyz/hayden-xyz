@@ -29,22 +29,11 @@ ___
 - Headset: Corsair HS80 RGB Wired
 ___
 
-### - Config section is being rewritten -
-<!--
 ### Configs / Dots:
 
-#### MC Server:
-- [Modlist](MC_Server/ServerREADME.md)
-
-#### Browser Extensions:
-- [Dark Reader](configs/BrowserExtensions/DarkReader)
-- [mtab](configs/BrowserExtensions/mtab)
-- [uBlock Origin](configs/BrowserExtensions/uBlockOrigin)
-
-
-#### AutoDesk
-- [Inventor Config](configs/AutoDesk)
--->
+- <b>[linux-dots](dotfiles/linux/.config)</b>
+- <b>[windows-dots](dotfiles/windows/.config)</b>
+- <b>[nixos config](nixos/)</b>
 
 ___
 ### Stats 📊

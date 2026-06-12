@@ -1,6 +1,6 @@
 <p align="middle">
-<img src="https://media1.tenor.com/m/6bKgFjqocmgAAAAC/pixel-blinkie.gif" width="33%">
-<img src="https://media1.tenor.com/m/ATQuavHs8WkAAAAC/lgbtq-lgbt.gif" width="33%">
+<img src="https://media1.tenor.com/m/6bKgFjqocmgAAAAC/pixel-blinkie.gif" width="50%">
+<img src="https://media1.tenor.com/m/ATQuavHs8WkAAAAC/lgbtq-lgbt.gif" width="50%">
 </p>
 
 ### Configs / Dots:

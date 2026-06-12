@@ -1,5 +1,6 @@
-<p align="center">
+<p float="center">
 <img src="https://media1.tenor.com/m/6bKgFjqocmgAAAAC/pixel-blinkie.gif">
+<img src="https://media1.tenor.com/m/ATQuavHs8WkAAAAC/lgbtq-lgbt.gif">
 </p>
 
 ### Configs / Dots:
@@ -9,8 +10,6 @@
 - <b>[nixos config](nixos/)</b>
 
 ___
-### My current setup 🖥️
-
 #### My PC specs:
 - CPU: Ryzen 7 9800x3D
 - GPU: RX 9070 XT
@@ -41,7 +40,3 @@ ___
 - [Instagram](https://www.instagram.com/_hayden.161)
 - [TikTok](https://www.tiktok.com/@_hayden.161)
 - [Twitch](https://www.twitch.tv/hayden_161_)
-<br>
-<p align="center">
-<img src="https://media1.tenor.com/m/ATQuavHs8WkAAAAC/lgbtq-lgbt.gif">
-</p>

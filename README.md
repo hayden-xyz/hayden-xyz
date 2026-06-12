@@ -1,4 +1,4 @@
-<p float="center">
+<p float="left">
 <img src="https://media1.tenor.com/m/6bKgFjqocmgAAAAC/pixel-blinkie.gif">
 <img src="https://media1.tenor.com/m/ATQuavHs8WkAAAAC/lgbtq-lgbt.gif">
 </p>

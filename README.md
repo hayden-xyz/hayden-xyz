@@ -1,4 +1,6 @@
-<div class="tenor-gif-embed" data-postid="26395745" data-share-method="host" data-aspect-ratio="8" data-width="100%"><a href="https://tenor.com/view/pixel-blinkie-blinkiescafe-blinkies-2000s-gif-26395745">Pixel Blinkie GIF</a>from <a href="https://tenor.com/search/pixel-gifs">Pixel GIFs</a></div>
+<p align="center">
+<img src="https://media1.tenor.com/m/6bKgFjqocmgAAAAC/pixel-blinkie.gif">
+</p>
 
 ### Configs / Dots:
 

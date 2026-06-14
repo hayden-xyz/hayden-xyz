@@ -3,6 +3,10 @@
 <!-- <img src="https://media1.tenor.com/m/ATQuavHs8WkAAAAC/lgbtq-lgbt.gif" width="49%"> -->
 </p>
 
+<p align="middle">
+  <img src="https://github-readme-tech-stack.vercel.app/api/cards?align=center&titleAlign=center&showBorder=false&lineCount=1&theme=catppuccin_macchiato&hideBg=true&bg=%2324273a&badge=%231e2030&border=%236e738d&titleColor=%238bd5ca&line1=NixOS%2Cnix%2Cc6a0f6%3B" alt="My Tech Stack" />
+</p>
+
 ### Configs / Dots:
 
 - <b>[linux-dots](dotfiles/linux/.config)</b>

@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   environment.systemPackages = with pkgs; [
@@ -11,6 +11,7 @@
     unrar
     fzf
     scrcpy
-    androidsdk
+    #androidsdk
+    btop-rocm
   ];
 }

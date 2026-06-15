@@ -2,6 +2,7 @@
 
 {
   ## user account config ##
+  programs.fish.enable = true;
   users.defaultUserShell = pkgs.fish;
   users.users."hayden" = {
     isNormalUser = true;

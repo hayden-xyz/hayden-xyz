@@ -5,8 +5,8 @@
 
 ### Configs / Dots:
 
-- <b>[linux-dots](dotfiles/linux/.config)</b>
-- <b>[windows-dots](dotfiles/windows/.config)</b>
+- <b>[linux dots](dotfiles/linux/.config)</b>
+- <b>[windows dots](dotfiles/windows/.config)</b>
 - <b>[nixos config](nixos/)</b>
 
 ___

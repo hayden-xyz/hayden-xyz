@@ -7,7 +7,7 @@
     #./discord.nix
     ./gaming.nix
     ./kde.nix
-    #./steam.nix
+    ./steam.nix
     #./utils.nix
   ];
 }

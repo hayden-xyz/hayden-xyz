@@ -20,6 +20,7 @@
     };
     catppuccin = {
       url = "github:catppuccin/nix";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
     tidaLuna = {
       url = "github:Inrixia/TidaLuna";
@@ -27,37 +28,38 @@
     };
     nixcord = {
       url = "github:FlameFlag/nixcord";
-      #inputs.nixpkgs.follows = "nixpkgs";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
-  outputs = {
-    self,
-    nixpkgs,
-    home-manager,
-    nix-cachyos-kernel,
-    ...
-    }@inputs: {
-
+  outputs =
+    { self
+    , nixpkgs
+    , stablepkgs
+    , home-manager
+    , nix-cachyos-kernel
+    , ...
+    }@inputs:
+    let
+      lib = nixpkgs.lib;
+    in {
     nixosConfigurations = {
       nixos = inputs.nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
         modules = [
           ./hardware-configuration.nix
           ./configuration.nix
-          ./default.nix
           ./modules
           ./theme
           ./pkgs
-          { nixpkgs.hostPlatform = "x86_64-linux"; }
-          { nixpkgs.config.allowUnfree = true; }
-          #home-manager.nixosModules.home-manager
           (
             { pkgs, ... }:
             {
               nixpkgs.overlays = [
                 nix-cachyos-kernel.overlays.pinned
+                inputs.tidaLuna.overlays.default
               ];
-              boot.kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-bore-lto-zen4;
+              #boot.kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-bore-zen4;
             }
           )
         ];

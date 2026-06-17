@@ -1,6 +1,7 @@
 { config, pkgs, inputs, ... }:
 
 {
+  console.keyMap = "de";
   environment.systemPackages = with pkgs; [
     fastfetch
     hyfetch
@@ -11,7 +12,7 @@
     unrar
     fzf
     scrcpy
-    #androidsdk
     btop-rocm
+    pnpm
   ];
 }

@@ -4,6 +4,7 @@
   ## Boot Parameters ##
   boot.kernelParams = [ "acpi_enforce_resources=lax" ];
   boot.kernelModules = [ "i2c-dev" "i2c-piix4" ];
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   ## Limine Config ##
   boot.loader.limine = {

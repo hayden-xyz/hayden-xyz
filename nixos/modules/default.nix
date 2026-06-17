@@ -8,8 +8,10 @@
     ./firewall.nix
     ./git.nix
     ./gnupg.nix
+    ./hardware.nix
     ./locale.nix
     ./networking.nix
+    ./settings.nix
     ./services.nix
     ./users.nix
   ];

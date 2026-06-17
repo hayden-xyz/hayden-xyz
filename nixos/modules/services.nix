@@ -17,6 +17,8 @@
   ## services.xserver ##
   services.xserver = {
     enable = false;
+    xkb.layout = "de";
+    xkb.variant = "";
   };
   ## services.printing (CUPS) ##
   services.printing = {

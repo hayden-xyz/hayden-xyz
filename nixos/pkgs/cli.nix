@@ -13,6 +13,5 @@
     fzf
     scrcpy
     btop-rocm
-    pnpm
   ];
 }

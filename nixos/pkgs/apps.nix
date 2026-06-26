@@ -9,6 +9,8 @@
     signal-desktop
     deja-dup
     openrgb-with-all-plugins
-    tidal-hifi
+    inputs.tidaLuna.packages.${stdenv.hostPlatform.system}.default
+    #tidal-hifi
+    upscayl
   ];
 }

@@ -4,7 +4,7 @@
   imports = [
     ./apps.nix
     ./cli.nix
-    #./discord.nix
+    ./discord.nix
     ./gaming.nix
     ./kde.nix
     ./steam.nix

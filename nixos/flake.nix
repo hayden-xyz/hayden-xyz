@@ -1,5 +1,5 @@
 {
-  description = "nixos config :)";
+  description = "hayden's nixos config :)";
 
   inputs = {
     nixpkgs = {
@@ -28,40 +28,48 @@
     };
     nixcord = {
       url = "github:FlameFlag/nixcord";
-      inputs.nixpkgs.follows = "nixpkgs";
+      #inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
   outputs =
     { self
     , nixpkgs
-    , stablepkgs
+    , chaotic
     , home-manager
     , nix-cachyos-kernel
     , ...
     }@inputs:
     let
       lib = nixpkgs.lib;
+      system = "x86_64-linux";
+      pkgs = nixpkgs.legacyPackages.${system};
     in {
     nixosConfigurations = {
       nixos = inputs.nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
+        inherit system;
         modules = [
+          home-manager.nixosModules.home-manager
+          chaotic.nixosModules.default
           ./hardware-configuration.nix
           ./configuration.nix
           ./modules
           ./theme
           ./pkgs
-          (
-            { pkgs, ... }:
-            {
-              nixpkgs.overlays = [
-                nix-cachyos-kernel.overlays.pinned
-                inputs.tidaLuna.overlays.default
-              ];
-              #boot.kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-bore-zen4;
-            }
-          )
+          {
+            home-manager = {
+              useGlobalPkgs = true;
+              useUserPackages = true;
+              extraSpecialArgs = { inherit inputs; };
+              users.hayden = ./home.nix;
+            };
+          }
+          {
+            nixpkgs.overlays = [
+              nix-cachyos-kernel.overlays.pinned
+              #inputs.tidaLuna.overlays.default
+            ];
+          }
         ];
         specialArgs = { inherit inputs; };
       };

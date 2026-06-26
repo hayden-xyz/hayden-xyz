@@ -1,8 +1,12 @@
+# Plugin options available for both Vencord and Equicord clients
 accountPanelServerProfile = {
   enable = true;
   prioritizeServerProfile = false;
 };
 alwaysAnimate = {
+  enable = false;
+};
+appleMusicRichPresence = {
   enable = false;
 };
 alwaysExpandRoles = {
@@ -29,8 +33,7 @@ betterFolders = {
   forceOpen = false;
   sidebarAnim = true;
   closeOthers = false;
-  nestedFolders = {
-  };
+  nestedFolders = {};
   closeServerFolder = false;
 };
 betterGifAltText = {
@@ -621,9 +624,6 @@ menuItemDemanglerAPI = {
 noticesAPI = {
   enable = true;
 };
-appleMusicRichPresence = {
-  enable = false;
-};
 autoDndWhilePlaying = {
   enable = false;
   statusToSet = "dnd";
@@ -1156,8 +1156,8 @@ questify = {
   questButtonLeftClickAction = "open-quests";
   questButtonMiddleClickAction = "plugin-settings";
   questButtonRightClickAction = "context-menu";
-  ignoredQuestIDs = {
-    questIDs = [
+  ignoredQuestIds = {
+    questIds = [
       "1504788660673839134"
       "1505722774193176586"
       "1506770769999433830"

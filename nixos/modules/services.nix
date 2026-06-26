@@ -24,4 +24,8 @@
   services.printing = {
     enable = true;
   };
+  ## services.flatpak ##
+  services.flatpak = {
+    enable = true;
+  };
 }

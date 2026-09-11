@@ -11,7 +11,7 @@
     haruna
   ];
   environment.plasma6.excludePackages = with pkgs.kdePackages; [
-    kinfocenter
+    elisa
     khelpcenter
     okular
     qrca

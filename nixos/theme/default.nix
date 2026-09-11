@@ -2,7 +2,7 @@
 
 {
   imports = [
-    #./desktop.nix
+    ./cli.nix
     ./fonts.nix
     ./pkgs.nix
   ];

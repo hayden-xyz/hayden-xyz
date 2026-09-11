@@ -4,15 +4,10 @@
   ## Services.hardware ##
   services.hardware = {
     ## openrgb ##
-    openrgb = {
-      enable = true;
-      motherboard = "amd";
-    };
-  };
-  ## Services.lact ##
-  services.lact = {
-    package = pkgs.lact;
-    enable = true;
+    #openrgb = {
+      #enable = true;
+      #motherboard = "amd";
+    #};
   };
   ## services.xserver ##
   services.xserver = {

@@ -5,12 +5,14 @@
     firefox.enable = true;
   };
   environment.systemPackages = with pkgs; [
-    brave
+    ## Browsers ##
+    #brave
+
+    ## Messengers ##
+    element-desktop
     signal-desktop
-    deja-dup
-    openrgb-with-all-plugins
-    inputs.tidaLuna.packages.${stdenv.hostPlatform.system}.default
-    #tidal-hifi
-    upscayl
+
+    ## Music ##
+    tidal-hifi
   ];
 }

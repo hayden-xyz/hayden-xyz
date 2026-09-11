@@ -12,6 +12,6 @@
     unrar
     fzf
     scrcpy
-    btop-rocm
+    btop
   ];
 }

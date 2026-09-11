@@ -5,7 +5,7 @@
     nixpkgs = {
       url = "github:nixos/nixpkgs/nixos-unstable";
     };
-    stablepkgs = {
+    stable = {
       url = "github:nixos/nixpkgs/nixos-26.05";
     };
     home-manager = {
@@ -46,10 +46,9 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in {
     nixosConfigurations = {
-      nixos = inputs.nixpkgs.lib.nixosSystem {
+      nixos-galaxybook = inputs.nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
-          home-manager.nixosModules.home-manager
           chaotic.nixosModules.default
           ./hardware-configuration.nix
           ./configuration.nix
@@ -57,17 +56,9 @@
           ./theme
           ./pkgs
           {
-            home-manager = {
-              useGlobalPkgs = true;
-              useUserPackages = true;
-              extraSpecialArgs = { inherit inputs; };
-              users.hayden = ./home.nix;
-            };
-          }
-          {
             nixpkgs.overlays = [
               nix-cachyos-kernel.overlays.pinned
-              #inputs.tidaLuna.overlays.default
+              inputs.tidaLuna.overlays.default
             ];
           }
         ];

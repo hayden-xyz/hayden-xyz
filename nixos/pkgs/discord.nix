@@ -7,13 +7,12 @@
 
   programs.nixcord = {
     # enable equicord
-    equicord.enable = true;
     enable = true;
     user = "hayden";
-    #discord = {
-      #equicord.enable = true;
-      #vencord.enable = false;
-    #};
+    discord = {
+      equicord.enable = true;
+      vencord.enable = false;
+    };
     # theming
     quickCss = "/* css goes here */";
     config = {

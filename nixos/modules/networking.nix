@@ -3,7 +3,7 @@
 {
   networking = {
     ## general config ##
-    hostName = "nixos-galaxybook";
+    hostName = "nixbook";
     ## networkmanager config ##
     networkmanager = {
       enable = true;

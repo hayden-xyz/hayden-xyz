@@ -58,7 +58,7 @@
           {
             nixpkgs.overlays = [
               nix-cachyos-kernel.overlays.pinned
-              inputs.tidaLuna.overlays.default
+              #inputs.tidaLuna.overlays.default
             ];
           }
         ];

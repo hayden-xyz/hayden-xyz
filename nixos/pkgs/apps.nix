@@ -14,5 +14,8 @@
 
     ## Music ##
     tidal-hifi
+
+    ## IDEs ##
+    greenfoot
   ];
 }

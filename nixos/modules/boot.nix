@@ -8,7 +8,7 @@
   boot.loader.limine = {
     enable = true;
     package = pkgs.limine-full;
-    maxGenerations = 10;
+    maxGenerations = null;
     style = {
       graphicalTerminal = {};
       interface = {};

@@ -3,18 +3,18 @@
 
   inputs = {
     nixpkgs = {
-      url = "github:nixos/nixpkgs/nixos-unstable";
-    };
-    stable = {
       url = "github:nixos/nixpkgs/nixos-26.05";
+    };
+    nixpkgs-unstable = {
+      url = "github:nixos/nixpkgs/nixos-unstable";
     };
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    chaotic = {
-      url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
-    };
+    #chaotic = {
+      #url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+    #};
     nix-cachyos-kernel = {
       url = "github:xddxdd/nix-cachyos-kernel/release";
     };
@@ -32,24 +32,27 @@
     };
   };
 
-  outputs =
-    { self
-    , nixpkgs
-    , chaotic
-    , home-manager
-    , nix-cachyos-kernel
-    , ...
+  outputs = {
+    self,
+    nixpkgs,
+    unstable,
+    #chaotic,
+    home-manager,
+    nix-cachyos-kernel,
+    ...
     }@inputs:
     let
-      lib = nixpkgs.lib;
       system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
+      unstable = import nixpkgs-unstable {
+        inherit system;
+        config.allowUnfree = true;
+      };
     in {
     nixosConfigurations = {
-      nixos-galaxybook = inputs.nixpkgs.lib.nixosSystem {
+      nixbook = inputs.nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
-          chaotic.nixosModules.default
+          #chaotic.nixosModules.default
           ./hardware-configuration.nix
           ./configuration.nix
           ./modules

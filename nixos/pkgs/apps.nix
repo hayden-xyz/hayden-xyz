@@ -2,15 +2,31 @@
 
 {
   programs = {
-    firefox.enable = true;
+    firefox = {
+      enable = true;
+    };
+    thunderbird = {
+      enable = true;
+    };
   };
   environment.systemPackages = with pkgs; [
-    brave
+    ## Browsers ##
+    #brave
+
+    ## Messengers ##
+    element-desktop
     signal-desktop
-    deja-dup
-    openrgb-with-all-plugins
-    inputs.tidaLuna.packages.${stdenv.hostPlatform.system}.default
-    #tidal-hifi
-    upscayl
+    kdePackages.neochat # kde matrix client
+
+    ## Email clients ##
+    kdePackages.kmail
+    kdePackages.kmailtransport
+    kdePackages.kmail-account-wizard
+
+    ## Music ##
+    inputs.tidaLuna.packages.${stdenv.hostPlatform.system}.default #Tidal client mod
+
+    ## IDEs ##
+    greenfoot
   ];
 }

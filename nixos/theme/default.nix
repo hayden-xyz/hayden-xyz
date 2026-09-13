@@ -2,7 +2,8 @@
 
 {
   imports = [
-    #./desktop.nix
+    ./displaymanager.nix
+    ./cli.nix
     ./fonts.nix
     ./pkgs.nix
   ];

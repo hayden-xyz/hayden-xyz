@@ -2,15 +2,13 @@
 
 {
   ## Boot Parameters ##
-  boot.kernelParams = [ "acpi_enforce_resources=lax" ];
-  boot.kernelModules = [ "i2c-dev" "i2c-piix4" ];
-  boot.kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-bore-zen4;
+  boot.kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-bore; #pkgs.linuxPackages_latest;
 
   ## Limine Config ##
   boot.loader.limine = {
     enable = true;
     package = pkgs.limine-full;
-    maxGenerations = 10;
+    maxGenerations = null;
     style = {
       graphicalTerminal = {};
       interface = {};

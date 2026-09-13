@@ -9,11 +9,6 @@
       motherboard = "amd";
     };
   };
-  ## Services.lact ##
-  services.lact = {
-    package = pkgs.lact;
-    enable = true;
-  };
   ## services.xserver ##
   services.xserver = {
     enable = false;

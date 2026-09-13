@@ -16,7 +16,7 @@
     ## Messengers ##
     element-desktop
     signal-desktop
-    kdePackages.neochat # kde matrix client
+    #kdePackages.neochat # kde matrix client
 
     ## Email clients ##
     kdePackages.kmail

@@ -30,6 +30,9 @@
       url = "github:FlameFlag/nixcord";
       #inputs.nixpkgs.follows = "nixpkgs";
     };
+    millennium = {
+      url = "github:SteamClientHomebrew/Millennium?dir=packages/nix";
+    };
   };
 
   outputs = {
@@ -87,6 +90,7 @@
           ./pkgs
           {
             nixpkgs.overlays = [
+              inputs
               nix-cachyos-kernel.overlays.pinned
               #inputs.tidaLuna.overlays.default
             ];

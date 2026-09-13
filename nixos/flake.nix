@@ -90,7 +90,7 @@
           ./pkgs
           {
             nixpkgs.overlays = [
-              inputs
+              inputs.millennium.overlays.default
               nix-cachyos-kernel.overlays.pinned
               #inputs.tidaLuna.overlays.default
             ];

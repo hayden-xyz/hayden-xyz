@@ -13,7 +13,7 @@
     signal-desktop
 
     ## Music ##
-    tidal-hifi
+    inputs.tidaLuna.packages.${stdenv.hostPlatform.system}.default #Tidal client mod
 
     ## IDEs ##
     greenfoot

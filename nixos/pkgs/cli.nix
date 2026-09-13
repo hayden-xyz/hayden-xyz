@@ -26,6 +26,9 @@
     unzip
     unrar
     fzf
+    usbutils
+    pciutils
+    alsa-tools
 
     ## android tools ##
     scrcpy

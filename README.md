@@ -7,7 +7,8 @@
 
 - <b>[linux dots](dotfiles/linux/.config)</b>
 - <b>[windows dots](dotfiles/windows/.config)</b>
-- <b>[nixos config](nixos/)</b>
+- <b>[nix desktop config](https://github.com/hayden-xyz/hayden-xyz/tree/nix-desktop/nixos)</b>
+- <b>[nix galaxybook config](https://github.com/hayden-xyz/hayden-xyz/tree/nixbook/nixos)</b>
 
 ___
 #### My PC specs:

@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ config, pkgs, inputs, stable, ... }:
 
 {
   programs = {
@@ -16,6 +16,6 @@
     inputs.tidaLuna.packages.${stdenv.hostPlatform.system}.default #Tidal client mod
 
     ## IDEs ##
-    greenfoot
+    stable.greenfoot
   ];
 }

@@ -6,6 +6,7 @@
 
   environment.systemPackages = with pkgs; [
     kdePackages.kdeconnect-kde
+    kdePackages.kamoso
     kdePackages.kate
     haruna
   ];

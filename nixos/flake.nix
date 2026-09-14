@@ -12,9 +12,9 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    chaotic = {
-      url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
-    };
+    #chaotic = {
+      #url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+    #};
     nix-cachyos-kernel = {
       url = "github:xddxdd/nix-cachyos-kernel/release";
     };
@@ -30,22 +30,27 @@
       url = "github:FlameFlag/nixcord";
       #inputs.nixpkgs.follows = "nixpkgs";
     };
+    galaxybook-fixes = {
+      url = "github:Andycodeman/samsung-galaxy-book-linux-fixes";
+      flake = false;
+    };
   };
 
   outputs = {
     self,
     nixpkgs,
     nixpkgs-stable,
-    chaotic,
+    #chaotic,
     home-manager,
     nix-cachyos-kernel,
+    galaxybook-fixes,
     ...
     }@inputs:
     let
       lib = nixpkgs.lib;
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
-      stablepkgs = import nixpkgs-stable {
+      stable = import nixpkgs-stable {
         inherit system;
         config.allowUnfree = true;
       };
@@ -55,7 +60,13 @@
       nixbook = inputs.nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
-          chaotic.nixosModules.default
+          #chaotic.nixosModules.default
+          "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix"
+          "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix"
+          {
+            hardware.samsungGalaxyBook.speakerFix940xfg.enable = true;
+            hardware.samsungGalaxyBook.ov02c10ClockFix.enable = true;
+          }
           ./hardware-configuration.nix
           ./configuration.nix
           ./modules
@@ -68,7 +79,10 @@
             ];
           }
         ];
-        specialArgs = { inherit inputs; };
+        specialArgs = {
+          inherit inputs;
+          inherit stable;
+        };
       };
     };
   };

@@ -12,9 +12,9 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    chaotic = {
-      url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
-    };
+    #chaotic = {
+      #url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+    #};
     nix-cachyos-kernel = {
       url = "github:xddxdd/nix-cachyos-kernel/release";
     };
@@ -39,7 +39,7 @@
     self,
     nixpkgs,
     nixpkgs-stable,
-    chaotic,
+    #chaotic,
     catppuccin,
     home-manager,
     nix-cachyos-kernel,
@@ -49,7 +49,7 @@
       lib = nixpkgs.lib;
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
-      stablepkgs = import nixpkgs-stable {
+      stable = import nixpkgs-stable {
         inherit system;
         config.allowUnfree = true;
       };
@@ -60,7 +60,7 @@
       nixbook = inputs.nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
-          chaotic.nixosModules.default
+          #chaotic.nixosModules.default
           ./hardware-configuration.nix
           ./configuration.nix
           ./modules
@@ -75,13 +75,15 @@
         ];
         specialArgs = {
           inherit inputs;
+          inherit stable;
         };
       };
       # config for my main desktop pc
       nixos = inputs.nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [
-          chaotic.nixosModules.default
+          #chaotic.nixosModules.default
+          home-manager.nixosModules.home-manager
           catppuccin.nixosModules.catppuccin
           ./hardware-configuration.nix
           ./configuration.nix
@@ -94,10 +96,20 @@
               nix-cachyos-kernel.overlays.pinned
               #inputs.tidaLuna.overlays.default
             ];
+            home-manager = {
+              useGlobalPkgs = true;
+              useUserPackages = true;
+              users.hayden = ./home.nix;
+              extraSpecialArgs = {
+                inherit inputs;
+                inherit stable;
+              };
+            };
           }
         ];
         specialArgs = {
           inherit inputs;
+          inherit stable;
         };
       };
     };

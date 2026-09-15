@@ -34,6 +34,10 @@
       url = "github:Andycodeman/samsung-galaxy-book-linux-fixes";
       flake = false;
     };
+    auto-cpufreq = {
+      url = "github:AdnanHodzic/auto-cpufreq";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {
@@ -44,6 +48,7 @@
     home-manager,
     nix-cachyos-kernel,
     galaxybook-fixes,
+    auto-cpufreq,
     ...
     }@inputs:
     let
@@ -63,6 +68,7 @@
           #chaotic.nixosModules.default
           "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix"
           "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix"
+          auto-cpufreq.nixosModules.default
           {
             hardware.samsungGalaxyBook.speakerFix940xfg.enable = true;
             hardware.samsungGalaxyBook.ov02c10ClockFix.enable = true;

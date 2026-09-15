@@ -2,8 +2,7 @@
 
 {
   ## Boot Parameters ##
-  boot.kernelPackages = pkgs.cachyosKernels.linuxPackages-cachyos-bore; #pkgs.linuxPackages_latest;
-
+  boot.kernelPackages =  pkgs.cachyosKernels.linuxPackages-cachyos-bore; #pkgs.linuxPackages_latest;
   ## Limine Config ##
   boot.loader.limine = {
     enable = true;

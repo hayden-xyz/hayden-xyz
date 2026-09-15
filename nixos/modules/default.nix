@@ -13,6 +13,7 @@
     ./networking.nix
     ./settings.nix
     ./services.nix
+    ./specialisations.nix
     ./users.nix
   ];
 }

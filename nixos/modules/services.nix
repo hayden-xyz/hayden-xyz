@@ -19,8 +19,9 @@
   services.printing = {
     enable = true;
   };
-  ## services.flatpak ##
-  services.flatpak = {
-    enable = true;
+  services = {
+    v4l2-relayd = {
+      instances.ipu6.input = { width = 1920; height = 1080; };
+    };
   };
 }

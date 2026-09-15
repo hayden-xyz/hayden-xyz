@@ -10,4 +10,19 @@
       platform = "ipu6ep";
     };
   };
+  programs = {
+    auto-cpufreq = {
+      enable = true;
+      settings = {
+        charger = {
+          governor = "performance";
+          turbo = "auto";
+        };
+        battery = {
+          governor = "balance_performance";
+          turbo = "auto";
+        };
+      };
+    };
+  };
 }

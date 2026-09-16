@@ -20,9 +20,10 @@
         okular
         qrca
       ];
-      environment.systemPackages = with pkgs; [
-        kdePackages.kdeconnect-kde
-        kdePackages.kamoso
+      environment.systemPackages = with pkgs; with pkgs.kdePackages; [
+        kdeconnect-kde
+        filelight
+        kamoso
         haruna
 
         ## Document editing ##
@@ -58,6 +59,7 @@
         tali
         yelp
       ];
+      environment.systemPackages = with pkgs; [];
     };
   };
 }

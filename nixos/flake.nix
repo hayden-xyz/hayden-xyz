@@ -33,6 +33,17 @@
     millennium = {
       url = "github:SteamClientHomebrew/Millennium?dir=packages/nix";
     };
+    galaxybook-fixes = {
+      url = "github:Andycodeman/samsung-galaxy-book-linux-fixes";
+      flake = false;
+    };
+    auto-cpufreq = {
+      url = "github:AdnanHodzic/auto-cpufreq";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    nix-flatpak = {
+      url = "github:gmodena/nix-flatpak/?ref=latest";
+    };
   };
 
   outputs = {
@@ -43,6 +54,9 @@
     catppuccin,
     home-manager,
     nix-cachyos-kernel,
+    galaxybook-fixes,
+    auto-cpufreq,
+    nix-flatpak,
     ...
     }@inputs:
     let
@@ -61,6 +75,9 @@
         inherit system;
         modules = [
           #chaotic.nixosModules.default
+          "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix" # galaxybook 3 pro speaker fix
+          "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix" # trying to get the camera to work
+          auto-cpufreq.nixosModules.default
           ./hardware-configuration.nix
           ./configuration.nix
           ./modules
@@ -71,6 +88,21 @@
               nix-cachyos-kernel.overlays.pinned
               #inputs.tidaLuna.overlays.default
             ];
+            hardware = {
+              samsungGalaxyBook = {
+                speakerFix940xfg.enable = true;
+                ov02c10ClockFix.enable = true;
+              };
+            };
+            home-manager = {
+              useGlobalPkgs = true;
+              useUserPackages = true;
+              users.hayden = ./home.nix;
+              extraSpecialArgs = {
+                inherit inputs;
+                inherit stable;
+              };
+            };
           }
         ];
         specialArgs = {

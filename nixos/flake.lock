@@ -1,5 +1,25 @@
 {
   "nodes": {
+    "auto-cpufreq": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1789201219,
+        "narHash": "sha256-dtdCI6VlBp6oEcLAeq+Ey0hXFbEtDvIONUAykKt0+sI=",
+        "owner": "AdnanHodzic",
+        "repo": "auto-cpufreq",
+        "rev": "64557fb388a40b51cdc5c908d5fce20f7ca94e17",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AdnanHodzic",
+        "repo": "auto-cpufreq",
+        "type": "github"
+      }
+    },
     "catppuccin": {
       "inputs": {
         "nixpkgs": "nixpkgs"
@@ -49,6 +69,22 @@
       "original": {
         "owner": "hercules-ci",
         "repo": "flake-parts",
+        "type": "github"
+      }
+    },
+    "galaxybook-fixes": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1789402750,
+        "narHash": "sha256-1YlqwosUWO1jOKzV9tRz/79jYztEhYOhtTHxkAuYmDU=",
+        "owner": "Andycodeman",
+        "repo": "samsung-galaxy-book-linux-fixes",
+        "rev": "bd2a1ca01b3b2f7c08a24ca96345d580893500d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Andycodeman",
+        "repo": "samsung-galaxy-book-linux-fixes",
         "type": "github"
       }
     },
@@ -172,6 +208,22 @@
         "owner": "nix-darwin",
         "ref": "nix-darwin-26.05",
         "repo": "nix-darwin",
+        "type": "github"
+      }
+    },
+    "nix-flatpak": {
+      "locked": {
+        "lastModified": 1767983141,
+        "narHash": "sha256-7ZCulYUD9RmJIDULTRkGLSW1faMpDlPKcbWJLYHoXcs=",
+        "owner": "gmodena",
+        "repo": "nix-flatpak",
+        "rev": "440818969ac2cbd77bfe025e884d0aa528991374",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gmodena",
+        "ref": "latest",
+        "repo": "nix-flatpak",
         "type": "github"
       }
     },
@@ -339,10 +391,13 @@
     },
     "root": {
       "inputs": {
+        "auto-cpufreq": "auto-cpufreq",
         "catppuccin": "catppuccin",
+        "galaxybook-fixes": "galaxybook-fixes",
         "home-manager": "home-manager",
         "millennium": "millennium",
         "nix-cachyos-kernel": "nix-cachyos-kernel",
+        "nix-flatpak": "nix-flatpak",
         "nixcord": "nixcord",
         "nixpkgs": "nixpkgs_5",
         "nixpkgs-stable": "nixpkgs-stable",

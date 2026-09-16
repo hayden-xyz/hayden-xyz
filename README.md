@@ -3,6 +3,4 @@
 <!-- <img src="https://media1.tenor.com/m/ATQuavHs8WkAAAAC/lgbtq-lgbt.gif" width="49%"> -->
 </p>
 
-<p align="middle">
-<h3>NixOS Config for my main desktop PC</h3>
-</p>
+<h3 align="middle">NixOS Config for my main desktop PC</h3>

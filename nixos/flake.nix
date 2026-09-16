@@ -38,6 +38,9 @@
       url = "github:AdnanHodzic/auto-cpufreq";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nix-flatpak = {
+      url = "github:gmodena/nix-flatpak/?ref=latest";
+    };
   };
 
   outputs = {
@@ -49,6 +52,7 @@
     nix-cachyos-kernel,
     galaxybook-fixes,
     auto-cpufreq,
+    nix-flatpak,
     ...
     }@inputs:
     let

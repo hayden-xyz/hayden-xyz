@@ -14,7 +14,7 @@
           };
         };
       };
-      environment.plasma6.excludePackages = with pkgs.kdePackages; [
+      environment.plasma6.excludePackages = with pkgs; with pkgs.kdePackages; [
         elisa
         khelpcenter
         okular
@@ -48,6 +48,7 @@
         geary
         gnome-characters
         gnome-terminal
+        gnome-console
         hitori
         iagno
         tali

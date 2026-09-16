@@ -29,8 +29,12 @@
     usbutils
     pciutils
     alsa-tools
+    v4l-utils
 
     ## android tools ##
     scrcpy
+
+    ## Language Servers ##
+    nil
   ];
 }

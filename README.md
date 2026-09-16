@@ -4,5 +4,5 @@
 </p>
 
 <p align="middle">
-### NixOS Config for my main desktop PC
+<h3>NixOS Config for my main desktop PC</h3>
 </p>

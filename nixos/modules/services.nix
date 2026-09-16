@@ -9,11 +9,6 @@
       motherboard = "amd";
     };
   };
-  ## Services.lact ##
-  services.lact = {
-    package = pkgs.lact;
-    enable = true;
-  };
   ## services.xserver ##
   services.xserver = {
     enable = false;
@@ -22,10 +17,6 @@
   };
   ## services.printing (CUPS) ##
   services.printing = {
-    enable = true;
-  };
-  ## services.flatpak ##
-  services.flatpak = {
     enable = true;
   };
 }

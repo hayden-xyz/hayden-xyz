@@ -8,7 +8,7 @@
     hyfetch
 
     ## taskmanagers ##
-    btop
+    btop-rocm
 
     ## ttys ##
     ghostty
@@ -31,5 +31,8 @@
 
     ## android tools ##
     scrcpy
+
+    ## language servers ##
+    nil
   ];
 }

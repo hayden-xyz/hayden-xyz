@@ -2,13 +2,7 @@
 
 {
   ## Services.hardware ##
-  services.hardware = {
-    ## openrgb ##
-    openrgb = {
-      enable = true;
-      motherboard = "amd";
-    };
-  };
+  services.hardware = {};
   ## services.xserver ##
   services.xserver = {
     enable = false;

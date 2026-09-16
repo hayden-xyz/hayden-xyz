@@ -75,7 +75,7 @@
         inherit system;
         modules = [
           #chaotic.nixosModules.default
-          "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix" # galaxybook 3 pro speaker fix
+          "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix" # galaxy book 3 pro speaker fix
           "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix" # trying to get the camera to work
           auto-cpufreq.nixosModules.default
           ./hardware-configuration.nix
@@ -90,7 +90,7 @@
             ];
             hardware = {
               samsungGalaxyBook = {
-                speakerFix940xfg.enable = true;
+                speakerFix940xfg.enable = true; # enable the speaker fix
                 ov02c10ClockFix.enable = true;
               };
             };
@@ -128,6 +128,20 @@
               nix-cachyos-kernel.overlays.pinned
               #inputs.tidaLuna.overlays.default
             ];
+            hardware = {
+              i2c.enable = true;
+            };
+            services.hardware = {
+              openrgb = {
+                enable = true;
+                motherboard = "amd";
+              };
+            };
+            # boot parameters
+            boot = {
+              kernelParams = [ "acpi_enforce_resources=lax" ];
+              kernelModules = [ "i2c-dev" "i2c-piix4" ];
+            };
             home-manager = {
               useGlobalPkgs = true;
               useUserPackages = true;

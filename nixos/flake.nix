@@ -75,16 +75,18 @@
         inherit system;
         modules = [
           #chaotic.nixosModules.default
+          home-manager.nixosModules.home-manager
           "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix" # galaxy book 3 pro speaker fix
           "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix" # trying to get the camera to work
           auto-cpufreq.nixosModules.default
-          ./hardware-configuration.nix
+          ./hardware-configuration-nixbook.nix
           ./configuration.nix
           ./modules
           ./theme
           ./pkgs
           {
             nixpkgs.overlays = [
+              inputs.millennium.overlays.default
               nix-cachyos-kernel.overlays.pinned
               #inputs.tidaLuna.overlays.default
             ];
@@ -93,6 +95,14 @@
                 speakerFix940xfg.enable = true; # enable the speaker fix
                 ov02c10ClockFix.enable = true;
               };
+            };
+            services = {
+              displayManager = {
+                ly.enable = true;
+              };
+            };
+            networking = {
+              hostName = "nixbook";
             };
             home-manager = {
               useGlobalPkgs = true;
@@ -117,7 +127,7 @@
           #chaotic.nixosModules.default
           home-manager.nixosModules.home-manager
           catppuccin.nixosModules.catppuccin
-          ./hardware-configuration.nix
+          ./hardware-configuration-desktop.nix
           ./configuration.nix
           ./modules
           ./theme
@@ -131,16 +141,25 @@
             hardware = {
               i2c.enable = true;
             };
-            services.hardware = {
-              openrgb = {
-                enable = true;
-                motherboard = "amd";
+            services ={
+              hardware = {
+                openrgb = {
+                  enable = true;
+                  motherboard = "amd";
+                };
+              };
+              displayManager = {
+                ly.enable = false;
+                plasma-login-manager.enable = true;
               };
             };
             # boot parameters
             boot = {
               kernelParams = [ "acpi_enforce_resources=lax" ];
               kernelModules = [ "i2c-dev" "i2c-piix4" ];
+            };
+            networking = {
+              hostName = "nixos";
             };
             home-manager = {
               useGlobalPkgs = true;

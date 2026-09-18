@@ -8,7 +8,7 @@
     ./firewall.nix
     ./git.nix
     ./gnupg.nix
-    ./hardware.nix
+    #./hardware.nix
     ./locale.nix
     ./networking.nix
     ./settings.nix

@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ config, pkgs, inputs, stable, ... }:
 
 {
   programs = {
@@ -28,9 +28,13 @@
 
     ## IDEs ##
     kate
-    greenfoot
+    stable.greenfoot
+    stable.eclipses.eclipse-java
 
     ## Document scanning / editing ##
     simple-scan
+
+    ## other apps ##
+    ausweisapp
   ];
 }

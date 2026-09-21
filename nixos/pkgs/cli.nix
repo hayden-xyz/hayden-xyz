@@ -10,6 +10,9 @@
     ## taskmanagers ##
     btop-rocm
 
+    ## stress testing ##
+    memtest_vulkan
+
     ## ttys ##
     ghostty
 
@@ -32,7 +35,7 @@
     ## android tools ##
     scrcpy
 
-    ## language servers ##
+    ## language servers (LSPs) ##
     nil
   ];
 }

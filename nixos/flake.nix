@@ -79,8 +79,8 @@
           "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix" # galaxy book 3 pro speaker fix
           "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix" # trying to get the camera to work
           auto-cpufreq.nixosModules.default
-          ./hardware-configuration-nixbook.nix
           ./configuration.nix
+          ./machines/nixbook
           ./modules
           ./theme
           ./pkgs
@@ -127,8 +127,8 @@
           #chaotic.nixosModules.default
           home-manager.nixosModules.home-manager
           catppuccin.nixosModules.catppuccin
-          ./hardware-configuration-desktop.nix
           ./configuration.nix
+          ./machines/nix-desktop
           ./modules
           ./theme
           ./pkgs
@@ -138,10 +138,11 @@
               nix-cachyos-kernel.overlays.pinned
               #inputs.tidaLuna.overlays.default
             ];
+            # things to get openrgb working on my gigabyte mobo
             hardware = {
               i2c.enable = true;
             };
-            services ={
+            services = {
               hardware = {
                 openrgb = {
                   enable = true;
@@ -155,8 +156,8 @@
             };
             # boot parameters
             boot = {
-              kernelParams = [ "acpi_enforce_resources=lax" ];
-              kernelModules = [ "i2c-dev" "i2c-piix4" ];
+              kernelParams = [ "acpi_enforce_resources=lax" ]; # needed for ram rgb
+              kernelModules = [ "i2c-dev" "i2c-piix4" ]; # also needed for ram rgb
             };
             networking = {
               hostName = "nixos";
@@ -164,7 +165,12 @@
             home-manager = {
               useGlobalPkgs = true;
               useUserPackages = true;
-              users.hayden = ./home.nix;
+              users.hayden = {
+                imports = [
+                  catppuccin.homeModules.catppuccin
+                  ./home.nix
+                ];
+              };
               extraSpecialArgs = {
                 inherit inputs;
                 inherit stable;

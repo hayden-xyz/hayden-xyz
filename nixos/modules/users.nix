@@ -10,4 +10,10 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [];
   };
+  users.users."Guest" = {
+    isNormalUser = true;
+    description = "guestuser";
+    extraGroups = [ "networkmanager" ];
+    password = "";
+  };
 }

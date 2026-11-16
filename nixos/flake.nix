@@ -75,6 +75,7 @@
         inherit system;
         modules = [
           #chaotic.nixosModules.default
+          catppuccin.nixosModules.catppuccin
           home-manager.nixosModules.home-manager
           "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix" # galaxy book 3 pro speaker fix
           "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix" # trying to get the camera to work
@@ -96,18 +97,18 @@
                 ov02c10ClockFix.enable = true;
               };
             };
-            services = {
-              displayManager = {
-                ly.enable = true;
-              };
-            };
             networking = {
               hostName = "nixbook";
             };
             home-manager = {
               useGlobalPkgs = true;
               useUserPackages = true;
-              users.hayden = ./home.nix;
+              users.hayden = {
+                imports = [
+                  catppuccin.homeModules.catppuccin
+                  ./machines/nixbook/home.nix
+                ];
+              };
               extraSpecialArgs = {
                 inherit inputs;
                 inherit stable;
@@ -168,7 +169,7 @@
               users.hayden = {
                 imports = [
                   catppuccin.homeModules.catppuccin
-                  ./home.nix
+                  ./machines/nix-desktop/home.nix
                 ];
               };
               extraSpecialArgs = {

@@ -32,6 +32,9 @@
     usbutils
     pciutils
 
+    ## editors ##
+    micro-full
+
     ## android tools ##
     scrcpy
 

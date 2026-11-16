@@ -5,13 +5,16 @@
     ## enable the kde plasma desktop environment ##
     kde.configuration = {
       services = {
-        flatpak = {
-          enable = true;
+        displayManager = {
+          plasma-login-manager.enable = true;
         };
         desktopManager = {
           plasma6 = {
             enable = true;
           };
+        };
+        flatpak = {
+          enable = true;
         };
       };
       environment.plasma6.excludePackages = with pkgs.kdePackages; [
@@ -33,13 +36,16 @@
     ## enable the gnome desktop environment ##
     gnome.configuration = {
       services = {
-        flatpak = {
-          enable = true;
+        displayManager = {
+          gdm.enable = true;
         };
         desktopManager = {
           gnome = {
             enable = true;
           };
+        };
+        flatpak = {
+          enable = true;
         };
       };
       environment.gnome.excludePackages = with pkgs; [
@@ -61,6 +67,25 @@
       ];
       environment.systemPackages = with pkgs; [
         wike
+      ];
+    };
+    mangowm.configuration = {
+      services = {
+        displayManager = {
+          ly = {
+            enable = true;
+            settings = {
+              animate = true;
+              animation = "matrix";
+              clock = "%c";
+              bigclock = true;
+              border_fg = "0x006600E3";
+              cmatrix_fg = "0x006600E3";
+            };
+          };
+        };
+      };
+      environment.systemPackages = with pkgs; [
       ];
     };
   };

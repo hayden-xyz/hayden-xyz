@@ -13,7 +13,9 @@
     ./networking.nix
     ./settings.nix
     ./services.nix
+    ./smb.nix
     ./specialisations.nix
+    ./ssh.nix
     ./users.nix
   ];
 }

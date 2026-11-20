@@ -39,6 +39,6 @@
     scrcpy
 
     ## language servers (LSPs) ##
-    nil
+    nixd
   ];
 }

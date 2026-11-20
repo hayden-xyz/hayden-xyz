@@ -1,4 +1,4 @@
-{ config, pkgs, inputs, ... }:
+{ config, pkgs, inputs, catppuccin, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -70,6 +70,23 @@
   home.sessionVariables = {
     # EDITOR = "emacs";
   };
+  programs = {
+    ghostty = {
+      enable = true;
+      package = null;
+      systemd.enable = false;
+    };
+    micro = {
+      enable = true;
+      package = null;
+    };
+    thunderbird = {
+      enable = true;
+      profiles."default" = {
+        isDefault = true;
+      };
+    };
+  };
 
   catppuccin = {
     ## global ##
@@ -82,6 +99,11 @@
     micro = {
       enable = true;
       transparent = true;
+    };
+    ghostty.enable = true;
+    thunderbird = {
+      enable = true;
+      profile = "default";
     };
   };
 

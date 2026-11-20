@@ -5,9 +5,9 @@
     firefox = {
       enable = true;
     };
-    thunderbird = {
-      enable = true;
-    };
+#     thunderbird = {
+#       enable = true;
+#     };
   };
   environment.systemPackages = with pkgs; with pkgs.kdePackages; [
     ## Browsers ##

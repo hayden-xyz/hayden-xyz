@@ -6,6 +6,7 @@
     accent = "mauve";
     flavor = "macchiato";
     enable = true;
-    autoEnable = true;
+    autoEnable = false;
+    cache.enable = true;
   };
 }

@@ -1,8 +1,7 @@
-{ config, pkgs, inputs, catppuccin, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
-  # Home Manager needs a bit of information about you and the paths it should
-  # manage.
+  # Home Manager needs a bit of information about you and the paths it should manage.
   home.username = "hayden";
   home.homeDirectory = "/home/hayden";
 
@@ -69,42 +68,6 @@
   #
   home.sessionVariables = {
     # EDITOR = "emacs";
-  };
-  programs = {
-    ghostty = {
-      enable = true;
-      package = null;
-      systemd.enable = false;
-    };
-    micro = {
-      enable = true;
-      package = null;
-    };
-    thunderbird = {
-      enable = true;
-      profiles."default" = {
-        isDefault = true;
-      };
-    };
-  };
-
-  catppuccin = {
-    ## global ##
-    accent = "mauve";
-    flavor = "macchiato";
-    enable = true;
-
-    ## programs ##
-    element-desktop.enable = true;
-    micro = {
-      enable = true;
-      transparent = true;
-    };
-    ghostty.enable = true;
-    thunderbird = {
-      enable = true;
-      profile = "default";
-    };
   };
 
   # Let Home Manager install and manage itself.

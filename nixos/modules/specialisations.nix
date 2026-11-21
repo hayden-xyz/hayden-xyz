@@ -69,7 +69,7 @@
         wike
       ];
     };
-    mangowm.configuration = {
+    niri.configuration = {
       services = {
         displayManager = {
           ly = {

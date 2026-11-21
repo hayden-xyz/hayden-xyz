@@ -3,14 +3,13 @@
 {
   services.samba = {
     enable = true;
-    securityType = "user";
     openFirewall = true;
     settings = {
       global = {
         "workgroup" = "WORKGROUP";
         "server string" = "nixbook";
         "netbios name" = "nixbook";
-        "security" = "user";
+        security = "user";
       };
       "nixbook-home" = {
         "path" = "/home/hayden";

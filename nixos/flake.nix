@@ -78,7 +78,7 @@
           catppuccin.nixosModules.catppuccin
           home-manager.nixosModules.home-manager
           "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix" # galaxy book 3 pro speaker fix
-          "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix" # trying to get the camera to work
+          "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix" # trying to get the camera to work ( mf still doesnt fucking work >:/ )
           auto-cpufreq.nixosModules.default
           ./configuration.nix
           ./machines/nixbook
@@ -106,7 +106,7 @@
               users.hayden = {
                 imports = [
                   catppuccin.homeModules.catppuccin
-                  ./machines/nixbook/home.nix
+                  ./machines/nixbook/home/default.nix
                 ];
               };
               extraSpecialArgs = {

@@ -2,8 +2,6 @@
 
 {
   imports = [
-    ./modules
-    ./pkgs
-    ./theme
+    ../../modules/home
   ];
 }

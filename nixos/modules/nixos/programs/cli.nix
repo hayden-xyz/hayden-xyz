@@ -31,6 +31,7 @@
     fzf
     usbutils
     pciutils
+    tree
 
     ## editors ##
     micro-full

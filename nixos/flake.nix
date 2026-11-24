@@ -67,122 +67,54 @@
         inherit system;
         config.allowUnfree = true;
       };
+      mkHost = { machineDir, homeModule }:
+        inputs.nixpkgs.lib.nixosSystem {
+          inherit system;
+          specialArgs = {
+            inherit inputs stable;
+          };
+          modules = [
+            #chaotic.nixosModules.default
+            catppuccin.nixosModules.catppuccin
+            home-manager.nixosModules.home-manager
+            machineDir
+            ./modules/nixos
+            ./specialisations
+            ./theme
+            {
+              nixpkgs.overlays = [
+                inputs.millennium.overlays.default
+                nix-cachyos-kernel.overlays.pinned
+                #inputs.tidaLuna.overlays.default
+              ];
+              home-manager = {
+                useGlobalPkgs = true;
+                useUserPackages = true;
+                users.hayden = {
+                  imports = [
+                    catppuccin.homeModules.catppuccin
+                    homeModule
+                  ];
+                };
+                extraSpecialArgs = {
+                  inherit inputs stable;
+                };
+              };
+            }
+          ];
+        };
 
     in {
     nixosConfigurations = {
       # config for my galaxy book 3 pro
-      nixbook = inputs.nixpkgs.lib.nixosSystem {
-        inherit system;
-        modules = [
-          #chaotic.nixosModules.default
-          catppuccin.nixosModules.catppuccin
-          home-manager.nixosModules.home-manager
-          "${galaxybook-fixes}/nixos/speaker-fix-940xfg.nix" # galaxy book 3 pro speaker fix
-          "${galaxybook-fixes}/nixos/ov02c10-26mhz-fix.nix" # trying to get the camera to work ( mf still doesnt fucking work >:/ )
-          auto-cpufreq.nixosModules.default
-          ./configuration.nix
-          ./machines/nixbook
-          ./modules
-          ./theme
-          ./pkgs
-          {
-            nixpkgs.overlays = [
-              inputs.millennium.overlays.default
-              nix-cachyos-kernel.overlays.pinned
-              #inputs.tidaLuna.overlays.default
-            ];
-            hardware = {
-              samsungGalaxyBook = {
-                speakerFix940xfg.enable = true; # enable the speaker fix
-                ov02c10ClockFix.enable = true;
-              };
-            };
-            networking = {
-              hostName = "nixbook";
-            };
-            home-manager = {
-              useGlobalPkgs = true;
-              useUserPackages = true;
-              users.hayden = {
-                imports = [
-                  catppuccin.homeModules.catppuccin
-                  ./machines/nixbook/home/default.nix
-                ];
-              };
-              extraSpecialArgs = {
-                inherit inputs;
-                inherit stable;
-              };
-            };
-          }
-        ];
-        specialArgs = {
-          inherit inputs;
-          inherit stable;
-        };
+      nixbook = mkHost {
+        machineDir = ./machines/nixbook;
+        homeModule = ./machines/nixbook/home.nix;
       };
       # config for my main desktop pc
-      nixos = inputs.nixpkgs.lib.nixosSystem {
-        inherit system;
-        modules = [
-          #chaotic.nixosModules.default
-          home-manager.nixosModules.home-manager
-          catppuccin.nixosModules.catppuccin
-          ./configuration.nix
-          ./machines/nix-desktop
-          ./modules
-          ./theme
-          ./pkgs
-          {
-            nixpkgs.overlays = [
-              inputs.millennium.overlays.default
-              nix-cachyos-kernel.overlays.pinned
-              #inputs.tidaLuna.overlays.default
-            ];
-            # things to get openrgb working on my gigabyte mobo
-            hardware = {
-              i2c.enable = true;
-            };
-            services = {
-              hardware = {
-                openrgb = {
-                  enable = true;
-                  motherboard = "amd";
-                };
-              };
-              displayManager = {
-                ly.enable = false;
-                plasma-login-manager.enable = true;
-              };
-            };
-            # boot parameters
-            boot = {
-              kernelParams = [ "acpi_enforce_resources=lax" ]; # needed for ram rgb
-              kernelModules = [ "i2c-dev" "i2c-piix4" ]; # also needed for ram rgb
-            };
-            networking = {
-              hostName = "nixos";
-            };
-            home-manager = {
-              useGlobalPkgs = true;
-              useUserPackages = true;
-              users.hayden = {
-                imports = [
-                  catppuccin.homeModules.catppuccin
-                  ./machines/nix-desktop/home.nix
-                ];
-              };
-              extraSpecialArgs = {
-                inherit inputs;
-                inherit stable;
-              };
-            };
-          }
-        ];
-        specialArgs = {
-          inherit inputs;
-          inherit stable;
-        };
+      nix-desktop = mkHost {
+        machineDir = ./machines/nix-desktop;
+        homeModule = ./machines/nix-desktop/home.nix;
       };
     };
   };

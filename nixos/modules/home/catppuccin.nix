@@ -1,4 +1,4 @@
-{ config, pkgs, imputs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   catppuccin = {

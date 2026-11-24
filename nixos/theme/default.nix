@@ -2,7 +2,6 @@
 
 {
   imports = [
-    #./displaymanager.nix
     ./catppuccin.nix
     ./cli.nix
     ./fonts.nix

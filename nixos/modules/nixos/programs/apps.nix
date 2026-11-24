@@ -5,6 +5,10 @@
     firefox = {
       enable = true;
     };
+    java = {
+      enable = true;
+      package = pkgs.jdk;
+    };
 #     thunderbird = {
 #       enable = true;
 #     };

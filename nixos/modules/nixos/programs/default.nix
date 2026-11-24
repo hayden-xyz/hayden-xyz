@@ -6,7 +6,8 @@
     ./cli.nix
     ./discord.nix
     ./gaming.nix
+    ./git.nix
+    ./gnupg.nix
     ./steam.nix
-    #./utils.nix
   ];
 }

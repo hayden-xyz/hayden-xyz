@@ -8,11 +8,14 @@
     ./firewall.nix
     ./git.nix
     ./gnupg.nix
-    ./hardware.nix
+    #./hardware.nix
     ./locale.nix
     ./networking.nix
     ./settings.nix
     ./services.nix
+    ./smb.nix
+    ./specialisations.nix
+    ./ssh.nix
     ./users.nix
   ];
 }

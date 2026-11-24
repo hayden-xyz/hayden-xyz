@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   ## user account config ##
@@ -9,5 +9,11 @@
     description = "hayden";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [];
+  };
+  users.users."Guest" = {
+    isNormalUser = true;
+    description = "guestuser";
+    extraGroups = [ "networkmanager" ];
+    password = "";
   };
 }

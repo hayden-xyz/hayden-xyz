@@ -85,7 +85,7 @@
               nixpkgs.overlays = [
                 inputs.millennium.overlays.default
                 nix-cachyos-kernel.overlays.pinned
-                #inputs.tidaLuna.overlays.default
+                inputs.tidaLuna.overlays.default
               ];
               home-manager = {
                 useGlobalPkgs = true;

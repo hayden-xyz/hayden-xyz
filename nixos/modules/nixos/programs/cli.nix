@@ -22,6 +22,7 @@
     oh-my-posh
 
     ## development tools ##
+    antigravity-cli
     git
 
     ## cli tools ##
